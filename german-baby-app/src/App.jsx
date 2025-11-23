@@ -10,15 +10,19 @@ function App() {
   const [selectedTopics, setSelectedTopics] = useState([]);
   const [favorites, setFavorites] = useState(new Set());
   const [learned, setLearned] = useState(new Set());
+  const [deleted, setDeleted] = useState(new Set());
   const [searchTerm, setSearchTerm] = useState('');
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
+  const [showDeleted, setShowDeleted] = useState(false);
 
   // Load saved progress from localStorage
   useEffect(() => {
     const savedFavorites = localStorage.getItem('germanBabyFavorites');
     const savedLearned = localStorage.getItem('germanBabyLearned');
+    const savedDeleted = localStorage.getItem('germanBabyDeleted');
     if (savedFavorites) setFavorites(new Set(JSON.parse(savedFavorites)));
     if (savedLearned) setLearned(new Set(JSON.parse(savedLearned)));
+    if (savedDeleted) setDeleted(new Set(JSON.parse(savedDeleted)));
   }, []);
 
   // Save progress to localStorage
@@ -29,6 +33,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem('germanBabyLearned', JSON.stringify([...learned]));
   }, [learned]);
+
+  useEffect(() => {
+    localStorage.setItem('germanBabyDeleted', JSON.stringify([...deleted]));
+  }, [deleted]);
 
   const toggleFavorite = (id) => {
     const newFavorites = new Set(favorites);
@@ -50,6 +58,16 @@ function App() {
     setLearned(newLearned);
   };
 
+  const toggleDeleted = (id) => {
+    const newDeleted = new Set(deleted);
+    if (newDeleted.has(id)) {
+      newDeleted.delete(id);
+    } else {
+      newDeleted.add(id);
+    }
+    setDeleted(newDeleted);
+  };
+
   const toggleTopic = (topicId) => {
     setSelectedTopics((prev) =>
       prev.includes(topicId)
@@ -68,8 +86,9 @@ function App() {
       phrase.english.toLowerCase().includes(searchTerm.toLowerCase()) ||
       phrase.german.toLowerCase().includes(searchTerm.toLowerCase());
     const favoriteMatch = !showOnlyFavorites || favorites.has(phrase.id);
+    const deletedMatch = showDeleted ? deleted.has(phrase.id) : !deleted.has(phrase.id);
 
-    return monthMatch && topicMatch && searchMatch && favoriteMatch;
+    return monthMatch && topicMatch && searchMatch && favoriteMatch && deletedMatch;
   });
 
   // Count phrases by topic for current month
@@ -129,6 +148,16 @@ function App() {
           >
             ⭐ {showOnlyFavorites ? 'Show All' : 'Show Favorites'} ({favorites.size})
           </button>
+          <button
+            onClick={() => setShowDeleted(!showDeleted)}
+            className={`px-6 py-3 rounded-xl border-2 transition-all ${
+              showDeleted
+                ? 'bg-red-400 border-red-500 text-white'
+                : 'bg-white border-gray-300 text-gray-700 hover:border-red-400'
+            }`}
+          >
+            🗑️ {showDeleted ? 'Hide Deleted' : 'Show Deleted'} ({deleted.size})
+          </button>
         </div>
 
         {/* Topic Filter */}
@@ -164,6 +193,8 @@ function App() {
                 isFavorite={favorites.has(phrase.id)}
                 onMarkLearned={toggleLearned}
                 isLearned={learned.has(phrase.id)}
+                onToggleDeleted={toggleDeleted}
+                isDeleted={deleted.has(phrase.id)}
                 currentMonth={selectedMonth}
               />
             ))}

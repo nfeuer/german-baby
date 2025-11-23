@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import RelatedVocabulary from './RelatedVocabulary';
 
-export default function PhraseCard({ phrase, topic, onToggleFavorite, isFavorite, onMarkLearned, isLearned, currentMonth }) {
+export default function PhraseCard({ phrase, topic, onToggleFavorite, isFavorite, onMarkLearned, isLearned, onToggleDeleted, isDeleted, currentMonth }) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -51,6 +51,18 @@ export default function PhraseCard({ phrase, topic, onToggleFavorite, isFavorite
                   className={`text-2xl transition-transform hover:scale-110`}
                 >
                   {isLearned ? '✅' : '⬜'}
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onToggleDeleted(phrase.id);
+                  }}
+                  className={`text-2xl transition-transform hover:scale-110 ${
+                    isDeleted ? 'opacity-100' : 'opacity-50 hover:opacity-100'
+                  }`}
+                  title={isDeleted ? 'Restore phrase' : 'Hide phrase'}
+                >
+                  🗑️
                 </button>
               </div>
             </div>
