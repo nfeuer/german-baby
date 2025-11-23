@@ -17,7 +17,7 @@ An interactive web application to help you learn German phrases to use with your
 ## Features
 
 ### 📚 Comprehensive Content
-- **620+ German phrases** organized across 15 topic categories
+- **720+ German phrases** organized across 15 topic categories
 - **15 traditional German lullabies** with full lyrics and translations
 - Phrases and lullabies tailored to each developmental stage (0-24 months)
 - Topics include:

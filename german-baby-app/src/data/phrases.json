@@ -5891,6 +5891,906 @@
       "topic": "family",
       "startMonth": 15,
       "context": "Family concept"
+    },
+    {
+      "id": 621,
+      "english": "Jump up high!",
+      "german": "Spring hoch!",
+      "pronunciation": "shpring HOHKH",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Active play"
+    },
+    {
+      "id": 622,
+      "english": "Spin around",
+      "german": "Dreh dich im Kreis",
+      "pronunciation": "dray dikh im KRICE",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Movement game"
+    },
+    {
+      "id": 623,
+      "english": "Follow me!",
+      "german": "Folge mir!",
+      "pronunciation": "FOL-geh meer",
+      "topic": "playing",
+      "startMonth": 15,
+      "context": "Leading activity"
+    },
+    {
+      "id": 624,
+      "english": "Your turn!",
+      "german": "Du bist dran!",
+      "pronunciation": "doo bist DRAHN",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Turn-taking"
+    },
+    {
+      "id": 625,
+      "english": "My turn",
+      "german": "Ich bin dran",
+      "pronunciation": "ikh bin DRAHN",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Turn-taking"
+    },
+    {
+      "id": 626,
+      "english": "Let's play together",
+      "german": "Lass uns zusammen spielen",
+      "pronunciation": "lahs oons tsoo-ZAH-men SHPEE-len",
+      "topic": "playing",
+      "startMonth": 15,
+      "context": "Cooperative play"
+    },
+    {
+      "id": 627,
+      "english": "Hide and seek!",
+      "german": "Verstecken spielen!",
+      "pronunciation": "fer-SHTEK-en SHPEE-len",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Classic game"
+    },
+    {
+      "id": 628,
+      "english": "Peek-a-boo!",
+      "german": "Kuckuck!",
+      "pronunciation": "KOO-kook",
+      "topic": "playing",
+      "startMonth": 6,
+      "context": "Baby game"
+    },
+    {
+      "id": 629,
+      "english": "I found you!",
+      "german": "Ich hab dich gefunden!",
+      "pronunciation": "ikh hahp dikh geh-FOON-den",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Hide and seek"
+    },
+    {
+      "id": 630,
+      "english": "Where did it go?",
+      "german": "Wo ist es hin?",
+      "pronunciation": "voh ist es HIN",
+      "topic": "playing",
+      "startMonth": 12,
+      "context": "Object permanence"
+    },
+    {
+      "id": 631,
+      "english": "Ring around the rosie",
+      "german": "Ringel Ringel Reihe",
+      "pronunciation": "RING-el RING-el RYE-heh",
+      "topic": "playing",
+      "startMonth": 15,
+      "context": "Circle game"
+    },
+    {
+      "id": 632,
+      "english": "All fall down!",
+      "german": "Alle fallen um!",
+      "pronunciation": "AHL-leh FAH-len OOM",
+      "topic": "playing",
+      "startMonth": 15,
+      "context": "Game ending"
+    },
+    {
+      "id": 633,
+      "english": "Let's make music",
+      "german": "Lass uns Musik machen",
+      "pronunciation": "lahs oons moo-ZEEK MAH-khen",
+      "topic": "playing",
+      "startMonth": 12,
+      "context": "Musical play"
+    },
+    {
+      "id": 634,
+      "english": "Would you like some water?",
+      "german": "Möchtest du etwas Wasser?",
+      "pronunciation": "MERKH-test doo ET-vahs VAH-ser",
+      "topic": "eating",
+      "startMonth": 9,
+      "context": "Offering drink"
+    },
+    {
+      "id": 635,
+      "english": "Drink slowly",
+      "german": "Trink langsam",
+      "pronunciation": "trink LAHNG-zahm",
+      "topic": "eating",
+      "startMonth": 12,
+      "context": "Drinking instruction"
+    },
+    {
+      "id": 636,
+      "english": "Are you still hungry?",
+      "german": "Hast du noch Hunger?",
+      "pronunciation": "hahst doo nokh HOONG-er",
+      "topic": "eating",
+      "startMonth": 12,
+      "context": "Checking fullness"
+    },
+    {
+      "id": 637,
+      "english": "You're full!",
+      "german": "Du bist satt!",
+      "pronunciation": "doo bist ZAHT",
+      "topic": "eating",
+      "startMonth": 12,
+      "context": "Recognizing fullness"
+    },
+    {
+      "id": 638,
+      "english": "Let's wash our hands first",
+      "german": "Lass uns zuerst die Hände waschen",
+      "pronunciation": "lahs oons tsoo-AIRST dee HEN-deh VAH-shen",
+      "topic": "eating",
+      "startMonth": 15,
+      "context": "Before meal hygiene"
+    },
+    {
+      "id": 639,
+      "english": "Sit at the table",
+      "german": "Setz dich an den Tisch",
+      "pronunciation": "zets dikh ahn den TISH",
+      "topic": "eating",
+      "startMonth": 15,
+      "context": "Mealtime routine"
+    },
+    {
+      "id": 640,
+      "english": "Use your spoon",
+      "german": "Benutze deinen Löffel",
+      "pronunciation": "beh-NOOT-seh DINE-en LER-fel",
+      "topic": "eating",
+      "startMonth": 15,
+      "context": "Utensil use"
+    },
+    {
+      "id": 641,
+      "english": "No throwing food",
+      "german": "Kein Essen werfen",
+      "pronunciation": "kine ES-sen VERF-en",
+      "topic": "eating",
+      "startMonth": 15,
+      "context": "Table manners"
+    },
+    {
+      "id": 642,
+      "english": "What a mess!",
+      "german": "Was für eine Sauerei!",
+      "pronunciation": "vahs foor INE-eh ZOW-er-eye",
+      "topic": "eating",
+      "startMonth": 12,
+      "context": "After messy eating"
+    },
+    {
+      "id": 643,
+      "english": "Let's clean you up",
+      "german": "Lass uns dich sauber machen",
+      "pronunciation": "lahs oons dikh ZOW-ber MAH-khen",
+      "topic": "eating",
+      "startMonth": 12,
+      "context": "Post-meal cleanup"
+    },
+    {
+      "id": 644,
+      "english": "Good morning, sleepyhead",
+      "german": "Guten Morgen, Schlafmütze",
+      "pronunciation": "GOO-ten MOR-gen, SHLAHF-mew-tseh",
+      "topic": "greetings",
+      "startMonth": 6,
+      "context": "Waking up"
+    },
+    {
+      "id": 645,
+      "english": "Hello there!",
+      "german": "Hallo da!",
+      "pronunciation": "HAH-loh DAH",
+      "topic": "greetings",
+      "startMonth": 0,
+      "context": "Casual greeting"
+    },
+    {
+      "id": 646,
+      "english": "How are you today?",
+      "german": "Wie geht es dir heute?",
+      "pronunciation": "vee GAYT es deer HOY-teh",
+      "topic": "greetings",
+      "startMonth": 18,
+      "context": "Daily check-in"
+    },
+    {
+      "id": 647,
+      "english": "I missed you!",
+      "german": "Ich habe dich vermisst!",
+      "pronunciation": "ikh HAH-beh dikh fer-MIST",
+      "topic": "greetings",
+      "startMonth": 12,
+      "context": "After separation"
+    },
+    {
+      "id": 648,
+      "english": "You're back!",
+      "german": "Du bist zurück!",
+      "pronunciation": "doo bist tsoo-REWK",
+      "topic": "greetings",
+      "startMonth": 12,
+      "context": "Return greeting"
+    },
+    {
+      "id": 649,
+      "english": "Nice to meet you",
+      "german": "Schön, dich kennenzulernen",
+      "pronunciation": "shern, dikh KEN-nen-tsoo-lair-nen",
+      "topic": "greetings",
+      "startMonth": 18,
+      "context": "First meeting"
+    },
+    {
+      "id": 650,
+      "english": "Wave goodbye!",
+      "german": "Wink zum Abschied!",
+      "pronunciation": "vink tsum AHP-sheet",
+      "topic": "greetings",
+      "startMonth": 9,
+      "context": "Departing"
+    },
+    {
+      "id": 651,
+      "english": "Blow a kiss",
+      "german": "Wirf ein Küsschen",
+      "pronunciation": "virf ine KEWS-khen",
+      "topic": "greetings",
+      "startMonth": 12,
+      "context": "Affectionate goodbye"
+    },
+    {
+      "id": 652,
+      "english": "It's raining cats and dogs",
+      "german": "Es regnet in Strömen",
+      "pronunciation": "es RAY-gnet in SHTER-men",
+      "topic": "weather",
+      "startMonth": 18,
+      "context": "Heavy rain"
+    },
+    {
+      "id": 653,
+      "english": "Put on your boots",
+      "german": "Zieh deine Stiefel an",
+      "pronunciation": "tsee DINE-eh SHTEE-fel ahn",
+      "topic": "weather",
+      "startMonth": 18,
+      "context": "Rain preparation"
+    },
+    {
+      "id": 654,
+      "english": "The sun is shining",
+      "german": "Die Sonne scheint",
+      "pronunciation": "dee ZON-neh SHYNT",
+      "topic": "weather",
+      "startMonth": 6,
+      "context": "Sunny day"
+    },
+    {
+      "id": 655,
+      "english": "Look at the clouds",
+      "german": "Schau dir die Wolken an",
+      "pronunciation": "show deer dee VOL-ken ahn",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Sky watching"
+    },
+    {
+      "id": 656,
+      "english": "It's thundering",
+      "german": "Es donnert",
+      "pronunciation": "es DON-nert",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Storm sounds"
+    },
+    {
+      "id": 657,
+      "english": "Don't be scared",
+      "german": "Hab keine Angst",
+      "pronunciation": "hahp KINE-eh AHNKST",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Reassurance during storm"
+    },
+    {
+      "id": 658,
+      "english": "The stars are out",
+      "german": "Die Sterne sind da",
+      "pronunciation": "dee SHTER-neh zint DAH",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Night sky"
+    },
+    {
+      "id": 659,
+      "english": "Make a wish!",
+      "german": "Wünsch dir was!",
+      "pronunciation": "VEWNSH deer vahs",
+      "topic": "weather",
+      "startMonth": 18,
+      "context": "Seeing stars"
+    },
+    {
+      "id": 660,
+      "english": "Let's go potty",
+      "german": "Lass uns aufs Töpfchen gehen",
+      "pronunciation": "lahs oons owfs TERF-khen GAY-en",
+      "topic": "routines",
+      "startMonth": 18,
+      "context": "Potty training"
+    },
+    {
+      "id": 661,
+      "english": "Do you need to go?",
+      "german": "Musst du mal?",
+      "pronunciation": "moost doo mahl",
+      "topic": "routines",
+      "startMonth": 18,
+      "context": "Potty check"
+    },
+    {
+      "id": 662,
+      "english": "Good try!",
+      "german": "Gut versucht!",
+      "pronunciation": "goot fer-ZOOKHT",
+      "topic": "routines",
+      "startMonth": 15,
+      "context": "Encouragement"
+    },
+    {
+      "id": 663,
+      "english": "You did it!",
+      "german": "Du hast es geschafft!",
+      "pronunciation": "doo hahst es geh-SHAHFT",
+      "topic": "routines",
+      "startMonth": 15,
+      "context": "Achievement"
+    },
+    {
+      "id": 664,
+      "english": "Time to come inside",
+      "german": "Zeit, reinzukommen",
+      "pronunciation": "TSITE, RINE-tsoo-kom-en",
+      "topic": "routines",
+      "startMonth": 15,
+      "context": "Transitioning indoors"
+    },
+    {
+      "id": 665,
+      "english": "Say please",
+      "german": "Sag bitte",
+      "pronunciation": "zahg BIT-teh",
+      "topic": "routines",
+      "startMonth": 18,
+      "context": "Manners teaching"
+    },
+    {
+      "id": 666,
+      "english": "Say thank you",
+      "german": "Sag danke",
+      "pronunciation": "zahg DAHN-keh",
+      "topic": "routines",
+      "startMonth": 18,
+      "context": "Manners teaching"
+    },
+    {
+      "id": 667,
+      "english": "You're welcome",
+      "german": "Gern geschehen",
+      "pronunciation": "gairn geh-SHEH-en",
+      "topic": "routines",
+      "startMonth": 18,
+      "context": "Response to thanks"
+    },
+    {
+      "id": 668,
+      "english": "Look at the bunny hop!",
+      "german": "Schau wie das Häschen hüpft!",
+      "pronunciation": "show vee dahs HES-khen HEWPFT",
+      "topic": "animals",
+      "startMonth": 12,
+      "context": "Watching animal movement"
+    },
+    {
+      "id": 669,
+      "english": "The bird is flying",
+      "german": "Der Vogel fliegt",
+      "pronunciation": "dair FOH-gel FLEEKT",
+      "topic": "animals",
+      "startMonth": 12,
+      "context": "Observing birds"
+    },
+    {
+      "id": 670,
+      "english": "Can you hop like a bunny?",
+      "german": "Kannst du wie ein Häschen hüpfen?",
+      "pronunciation": "kahnst doo vee ine HES-khen HEWPF-en",
+      "topic": "animals",
+      "startMonth": 18,
+      "context": "Animal imitation"
+    },
+    {
+      "id": 671,
+      "english": "Roar like a lion!",
+      "german": "Brüll wie ein Löwe!",
+      "pronunciation": "BREWL vee ine LER-veh",
+      "topic": "animals",
+      "startMonth": 18,
+      "context": "Animal sounds"
+    },
+    {
+      "id": 672,
+      "english": "The frog says ribbit",
+      "german": "Der Frosch macht quak",
+      "pronunciation": "dair FROSH mahkht KVAHK",
+      "topic": "animals",
+      "startMonth": 15,
+      "context": "Animal sounds"
+    },
+    {
+      "id": 673,
+      "english": "Where's the spider?",
+      "german": "Wo ist die Spinne?",
+      "pronunciation": "voh ist dee SHPIN-neh",
+      "topic": "animals",
+      "startMonth": 15,
+      "context": "Finding insects"
+    },
+    {
+      "id": 674,
+      "english": "Don't touch!",
+      "german": "Nicht anfassen!",
+      "pronunciation": "nikht AHN-fah-sen",
+      "topic": "animals",
+      "startMonth": 12,
+      "context": "Safety warning"
+    },
+    {
+      "id": 675,
+      "english": "You're being so brave!",
+      "german": "Du bist so mutig!",
+      "pronunciation": "doo bist zoh MOO-tikh",
+      "topic": "emotions",
+      "startMonth": 15,
+      "context": "Encouraging bravery"
+    },
+    {
+      "id": 676,
+      "english": "That's frustrating, isn't it?",
+      "german": "Das ist frustrierend, nicht wahr?",
+      "pronunciation": "dahs ist froos-TREE-rent, nikht VAHR",
+      "topic": "emotions",
+      "startMonth": 18,
+      "context": "Validating feelings"
+    },
+    {
+      "id": 677,
+      "english": "You look worried",
+      "german": "Du siehst besorgt aus",
+      "pronunciation": "doo zeest beh-ZORKT OWS",
+      "topic": "emotions",
+      "startMonth": 18,
+      "context": "Identifying emotions"
+    },
+    {
+      "id": 678,
+      "english": "Everything is okay",
+      "german": "Alles ist in Ordnung",
+      "pronunciation": "AHL-les ist in ORD-noong",
+      "topic": "emotions",
+      "startMonth": 12,
+      "context": "Reassurance"
+    },
+    {
+      "id": 679,
+      "english": "You're safe",
+      "german": "Du bist sicher",
+      "pronunciation": "doo bist ZIKH-er",
+      "topic": "emotions",
+      "startMonth": 9,
+      "context": "Comfort"
+    },
+    {
+      "id": 680,
+      "english": "I'm here",
+      "german": "Ich bin da",
+      "pronunciation": "ikh bin DAH",
+      "topic": "emotions",
+      "startMonth": 0,
+      "context": "Presence reassurance"
+    },
+    {
+      "id": 681,
+      "english": "You're silly!",
+      "german": "Du bist albern!",
+      "pronunciation": "doo bist AHL-bern",
+      "topic": "emotions",
+      "startMonth": 15,
+      "context": "Playful teasing"
+    },
+    {
+      "id": 682,
+      "english": "Touch your knees",
+      "german": "Berühre deine Knie",
+      "pronunciation": "beh-REW-reh DINE-eh KNEE",
+      "topic": "body",
+      "startMonth": 18,
+      "context": "Body parts"
+    },
+    {
+      "id": 683,
+      "english": "Point to your ankles",
+      "german": "Zeig auf deine Knöchel",
+      "pronunciation": "TSIKE owf DINE-eh KNER-khel",
+      "topic": "body",
+      "startMonth": 20,
+      "context": "Body parts"
+    },
+    {
+      "id": 684,
+      "english": "Where's your tongue?",
+      "german": "Wo ist deine Zunge?",
+      "pronunciation": "voh ist DINE-eh TSOON-geh",
+      "topic": "body",
+      "startMonth": 15,
+      "context": "Body parts"
+    },
+    {
+      "id": 685,
+      "english": "Stick out your tongue",
+      "german": "Streck die Zunge raus",
+      "pronunciation": "shtreck dee TSOON-geh ROWS",
+      "topic": "body",
+      "startMonth": 15,
+      "context": "Silly game"
+    },
+    {
+      "id": 686,
+      "english": "Make a funny face",
+      "german": "Mach ein lustiges Gesicht",
+      "pronunciation": "mahkh ine LOOS-tikh-es geh-ZIKHT",
+      "topic": "body",
+      "startMonth": 18,
+      "context": "Facial expressions"
+    },
+    {
+      "id": 687,
+      "english": "Blink your eyes",
+      "german": "Blinzel mit den Augen",
+      "pronunciation": "BLIN-tsel mit den OW-gen",
+      "topic": "body",
+      "startMonth": 18,
+      "context": "Eye movement"
+    },
+    {
+      "id": 688,
+      "english": "What color shirt are you wearing?",
+      "german": "Welche Farbe hat dein Shirt?",
+      "pronunciation": "VEL-kheh FAR-beh haht dine SHIRT",
+      "topic": "colors",
+      "startMonth": 20,
+      "context": "Color identification"
+    },
+    {
+      "id": 689,
+      "english": "Show me something blue",
+      "german": "Zeig mir etwas Blaues",
+      "pronunciation": "TSIKE meer ET-vahs BLOW-es",
+      "topic": "colors",
+      "startMonth": 20,
+      "context": "Color hunt"
+    },
+    {
+      "id": 690,
+      "english": "That's the same color!",
+      "german": "Das ist die gleiche Farbe!",
+      "pronunciation": "dahs ist dee GLIKE-eh FAR-beh",
+      "topic": "colors",
+      "startMonth": 20,
+      "context": "Matching colors"
+    },
+    {
+      "id": 691,
+      "english": "Make a square",
+      "german": "Mach ein Quadrat",
+      "pronunciation": "mahkh ine kvah-DRAHT",
+      "topic": "colors",
+      "startMonth": 20,
+      "context": "Shape making"
+    },
+    {
+      "id": 692,
+      "english": "Count the triangles",
+      "german": "Zähl die Dreiecke",
+      "pronunciation": "tsayl dee DRY-eck-eh",
+      "topic": "colors",
+      "startMonth": 22,
+      "context": "Shape counting"
+    },
+    {
+      "id": 693,
+      "english": "It's a heart!",
+      "german": "Es ist ein Herz!",
+      "pronunciation": "es ist ine HERTS",
+      "topic": "colors",
+      "startMonth": 18,
+      "context": "Shape identification"
+    },
+    {
+      "id": 694,
+      "english": "Take off your hat",
+      "german": "Nimm deinen Hut ab",
+      "pronunciation": "nim DINE-en HOOT ahp",
+      "topic": "clothing",
+      "startMonth": 15,
+      "context": "Removing clothes"
+    },
+    {
+      "id": 695,
+      "english": "Put on your mittens",
+      "german": "Zieh deine Fäustlinge an",
+      "pronunciation": "tsee DINE-eh FOYST-ling-eh ahn",
+      "topic": "clothing",
+      "startMonth": 18,
+      "context": "Winter dressing"
+    },
+    {
+      "id": 696,
+      "english": "Your shoes match!",
+      "german": "Deine Schuhe passen zusammen!",
+      "pronunciation": "DINE-eh SHOO-eh PAH-sen tsoo-ZAH-men",
+      "topic": "clothing",
+      "startMonth": 18,
+      "context": "Outfit praise"
+    },
+    {
+      "id": 697,
+      "english": "Roll up your sleeves",
+      "german": "Krempel deine Ärmel hoch",
+      "pronunciation": "KREMP-el DINE-eh AIR-mel HOHKH",
+      "topic": "clothing",
+      "startMonth": 20,
+      "context": "Before messy activity"
+    },
+    {
+      "id": 698,
+      "english": "Tuck in your shirt",
+      "german": "Steck dein Shirt ein",
+      "pronunciation": "shtek dine SHIRT INE",
+      "topic": "clothing",
+      "startMonth": 22,
+      "context": "Neat appearance"
+    },
+    {
+      "id": 699,
+      "english": "Nap time",
+      "german": "Schlafenszeit",
+      "pronunciation": "SHLAH-fens-tsite",
+      "topic": "sleep",
+      "startMonth": 0,
+      "context": "Daytime sleep"
+    },
+    {
+      "id": 700,
+      "english": "Just five more minutes",
+      "german": "Nur noch fünf Minuten",
+      "pronunciation": "noor nokh FEWNF mee-NOO-ten",
+      "topic": "sleep",
+      "startMonth": 18,
+      "context": "Delayed bedtime"
+    },
+    {
+      "id": 701,
+      "english": "Lights off",
+      "german": "Licht aus",
+      "pronunciation": "likht OWS",
+      "topic": "sleep",
+      "startMonth": 9,
+      "context": "Bedtime routine"
+    },
+    {
+      "id": 702,
+      "english": "Hug your teddy",
+      "german": "Umarme deinen Teddy",
+      "pronunciation": "oom-AR-meh DINE-en TED-ee",
+      "topic": "sleep",
+      "startMonth": 12,
+      "context": "Comfort object"
+    },
+    {
+      "id": 703,
+      "english": "Stay in bed",
+      "german": "Bleib im Bett",
+      "pronunciation": "blybe im BET",
+      "topic": "sleep",
+      "startMonth": 18,
+      "context": "Sleep boundary"
+    },
+    {
+      "id": 704,
+      "english": "Let's ride the bike",
+      "german": "Lass uns Fahrrad fahren",
+      "pronunciation": "lahs oons FAH-raht FAH-ren",
+      "topic": "transport",
+      "startMonth": 20,
+      "context": "Biking activity"
+    },
+    {
+      "id": 705,
+      "english": "Hold on tight!",
+      "german": "Halt dich fest!",
+      "pronunciation": "HAHLT dikh FEST",
+      "topic": "transport",
+      "startMonth": 15,
+      "context": "Safety instruction"
+    },
+    {
+      "id": 706,
+      "english": "The ambulance is loud",
+      "german": "Der Krankenwagen ist laut",
+      "pronunciation": "dair KRAHN-ken-vah-gen ist LOWT",
+      "topic": "transport",
+      "startMonth": 15,
+      "context": "Emergency vehicle"
+    },
+    {
+      "id": 707,
+      "english": "Look both ways",
+      "german": "Schau nach beiden Seiten",
+      "pronunciation": "show nahkh BY-den ZY-ten",
+      "topic": "transport",
+      "startMonth": 20,
+      "context": "Street safety"
+    },
+    {
+      "id": 708,
+      "english": "Wait for the green light",
+      "german": "Warte auf das grüne Licht",
+      "pronunciation": "VAR-teh owf dahs GREW-neh LIKHT",
+      "topic": "transport",
+      "startMonth": 20,
+      "context": "Traffic safety"
+    },
+    {
+      "id": 709,
+      "english": "How old are you?",
+      "german": "Wie alt bist du?",
+      "pronunciation": "vee AHLT bist doo",
+      "topic": "numbers",
+      "startMonth": 20,
+      "context": "Age question"
+    },
+    {
+      "id": 710,
+      "english": "Count on your fingers",
+      "german": "Zähl an deinen Fingern",
+      "pronunciation": "tsayl ahn DINE-en FING-ern",
+      "topic": "numbers",
+      "startMonth": 20,
+      "context": "Counting method"
+    },
+    {
+      "id": 711,
+      "english": "One for you, one for me",
+      "german": "Eins für dich, eins für mich",
+      "pronunciation": "INES feer dikh, INES feer mikh",
+      "topic": "numbers",
+      "startMonth": 18,
+      "context": "Fair sharing"
+    },
+    {
+      "id": 712,
+      "english": "Which is bigger?",
+      "german": "Welches ist größer?",
+      "pronunciation": "VEL-khes ist GRER-ser",
+      "topic": "numbers",
+      "startMonth": 20,
+      "context": "Size comparison"
+    },
+    {
+      "id": 713,
+      "english": "This one is smaller",
+      "german": "Dieses ist kleiner",
+      "pronunciation": "DEE-zes ist KLINE-er",
+      "topic": "numbers",
+      "startMonth": 20,
+      "context": "Size comparison"
+    },
+    {
+      "id": 714,
+      "english": "Blow your nose",
+      "german": "Putz dir die Nase",
+      "pronunciation": "poots deer dee NAH-zeh",
+      "topic": "hygiene",
+      "startMonth": 18,
+      "context": "Nose care"
+    },
+    {
+      "id": 715,
+      "english": "Cover your mouth when you cough",
+      "german": "Halt die Hand vor den Mund beim Husten",
+      "pronunciation": "hahlt dee HAHND for den MOONT bime HOOS-ten",
+      "topic": "hygiene",
+      "startMonth": 20,
+      "context": "Hygiene manners"
+    },
+    {
+      "id": 716,
+      "english": "Wash behind your ears",
+      "german": "Wasch hinter den Ohren",
+      "pronunciation": "vahsh HIN-ter den OH-ren",
+      "topic": "hygiene",
+      "startMonth": 18,
+      "context": "Thorough washing"
+    },
+    {
+      "id": 717,
+      "english": "Time to cut your nails",
+      "german": "Zeit, deine Nägel zu schneiden",
+      "pronunciation": "TSITE, DINE-eh NAY-gel tsoo SHNIDE-en",
+      "topic": "hygiene",
+      "startMonth": 12,
+      "context": "Grooming"
+    },
+    {
+      "id": 718,
+      "english": "Your brother/sister",
+      "german": "Dein Bruder/Deine Schwester",
+      "pronunciation": "dine BROO-der/DINE-eh SHVES-ter",
+      "topic": "family",
+      "startMonth": 12,
+      "context": "Sibling reference"
+    },
+    {
+      "id": 719,
+      "english": "Be nice to your sibling",
+      "german": "Sei nett zu deinem Geschwister",
+      "pronunciation": "zye NET tsoo DINE-em geh-SHVIS-ter",
+      "topic": "family",
+      "startMonth": 18,
+      "context": "Sibling interaction"
+    },
+    {
+      "id": 720,
+      "english": "Share with your friend",
+      "german": "Teile mit deinem Freund",
+      "pronunciation": "TY-leh mit DINE-em FROYND",
+      "topic": "family",
+      "startMonth": 18,
+      "context": "Social sharing"
     }
   ]
 }

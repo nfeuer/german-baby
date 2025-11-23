@@ -14,7 +14,7 @@
 1. **Educational:** Help English-speaking parents learn German phrases appropriate for baby's developmental stage
 2. **Interactive:** Engaging UI with animations, not boring text blocks
 3. **Accessible:** Works offline, installable on mobile devices
-4. **Comprehensive:** 520+ phrases and 15 lullabies covering all common baby interactions
+4. **Comprehensive:** 720+ phrases and 15 lullabies covering all common baby interactions
 5. **Adaptive:** Content filters by age, allowing gradual vocabulary expansion
 
 ---
@@ -22,7 +22,7 @@
 ## Key Features Implemented
 
 ### Core Content
-- ✅ **520 German phrases** organized across 15 topics
+- ✅ **720 German phrases** organized across 15 topics
 - ✅ **15 traditional German lullabies** with full lyrics and translations
 - ✅ Age-based filtering (0-24 months in developmental stages)
 - ✅ Topic-based organization (greetings, sleep, eating, playing, etc.)
@@ -69,7 +69,7 @@ german-baby-app/
 │   │   ├── RelatedVocabulary.jsx # Related words component
 │   │   └── Lullaby.jsx           # Lullaby display component
 │   ├── data/
-│   │   ├── phrases.json          # 520 phrases database
+│   │   ├── phrases.json          # 720 phrases database
 │   │   └── lullabies.json        # 15 lullabies database
 │   ├── App.jsx                   # Main application component
 │   ├── main.jsx                  # Entry point + SW registration
@@ -202,6 +202,13 @@ App (parent)
 - Created installation documentation
 - Made app fully offline-capable
 
+### Session 7: Content Expansion to 720 Phrases
+- Added 200 new phrases across all topics (620 → 720)
+- Expanded coverage for advanced developmental stages
+- Enhanced vocabulary for safety, manners, and social interaction
+- Fixed Tailwind CSS PostCSS configuration
+- Updated all documentation to reflect 720 phrases
+
 ---
 
 ## Technical Decisions
@@ -240,7 +247,7 @@ App (parent)
 ## Performance Considerations
 
 ### Bundle Size
-- **Initial load:** ~500KB (with 520 phrases + 15 lullabies)
+- **Initial load:** ~600KB (with 720 phrases + 15 lullabies)
 - **Cached size:** ~1MB (includes all assets)
 - **localStorage:** ~50KB (favorites, learned, deleted)
 
@@ -312,7 +319,7 @@ App (parent)
 3. **No Sync:** Progress doesn't sync across devices
    - Future: Add export/import or cloud sync
 
-4. **Large Bundle:** 520 phrases in single JSON could be code-split
+4. **Large Bundle:** 720 phrases in single JSON could be code-split
    - Consider lazy loading phrases by topic/month
 
 5. **No Offline Update:** Can't update content without internet
@@ -475,7 +482,7 @@ npm run build
 - **Total Lines of Code:** ~3,500
 - **Components:** 7
 - **Data Files:** 2 (JSON)
-- **Total Phrases:** 520
+- **Total Phrases:** 720
 - **Total Lullabies:** 15
 - **Topics:** 15
 - **Age Range:** 0-24 months
@@ -492,6 +499,6 @@ For bugs, feature requests, or questions:
 
 ---
 
-**Last Updated:** 2025-01-23
-**Version:** 1.0.0
+**Last Updated:** 2025-11-23
+**Version:** 1.1.0
 **Status:** Production Ready ✅
