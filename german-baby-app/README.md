@@ -29,6 +29,9 @@ An interactive web application to help you learn German phrases to use with your
 - Beautiful color-coded cards by topic
 - Pronunciation guides for every phrase
 - Context information for when to use each phrase
+- **Related vocabulary** appears on card backs with age-appropriate words
+  - Example: "Did the apple taste good?" shows related fruits (banana, strawberry, pear)
+  - Vocabulary automatically filters based on baby's selected age
 
 ### 📊 Progress Tracking
 - Mark phrases as "learned" with checkbox
@@ -101,7 +104,21 @@ The app is designed to be easily extensible! To add new phrases:
   "pronunciation": "voh GAY-en veer HIN",
   "topic": "routines",
   "startMonth": 15,
-  "context": "Before leaving the house"
+  "context": "Before leaving the house",
+  "relatedVocabulary": [
+    {
+      "english": "Park",
+      "german": "Park",
+      "pronunciation": "PARK",
+      "minMonth": 15
+    },
+    {
+      "english": "Store",
+      "german": "Geschäft",
+      "pronunciation": "geh-SHEFT",
+      "minMonth": 18
+    }
+  ]
 }
 ```
 
@@ -113,6 +130,10 @@ The app is designed to be easily extensible! To add new phrases:
 - **topic**: Must match one of the topic IDs (greetings, sleep, eating, playing, body, emotions, weather, routines, colors, numbers, animals, clothing, hygiene, transport, family)
 - **startMonth**: The developmental month when this phrase becomes relevant (0-24)
 - **context**: Brief description of when to use this phrase
+- **relatedVocabulary** (optional): Array of related words that expand the phrase's vocabulary
+  - Each item has: english, german, pronunciation, and minMonth (minimum age to show)
+  - Only vocabulary appropriate for baby's current age is displayed
+  - Example: "Did the apple taste good?" includes related fruits (banana, strawberry, blueberry, etc.)
 
 ### Adding New Topics
 

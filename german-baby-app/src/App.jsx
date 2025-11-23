@@ -164,6 +164,7 @@ function App() {
                 isFavorite={favorites.has(phrase.id)}
                 onMarkLearned={toggleLearned}
                 isLearned={learned.has(phrase.id)}
+                currentMonth={selectedMonth}
               />
             ))}
           </div>

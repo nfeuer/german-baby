@@ -225,7 +225,39 @@
       "pronunciation": "hat dair AH-pfel goot geh-SHMEKT",
       "topic": "eating",
       "startMonth": 6,
-      "context": "After eating fruit"
+      "context": "After eating fruit",
+      "relatedVocabulary": [
+        {
+          "english": "Banana",
+          "german": "Banane",
+          "pronunciation": "bah-NAH-neh",
+          "minMonth": 6
+        },
+        {
+          "english": "Strawberry",
+          "german": "Erdbeere",
+          "pronunciation": "AIRD-beh-reh",
+          "minMonth": 8
+        },
+        {
+          "english": "Blueberries",
+          "german": "Blaubeeren",
+          "pronunciation": "BLOW-beh-ren",
+          "minMonth": 8
+        },
+        {
+          "english": "Pear",
+          "german": "Birne",
+          "pronunciation": "BEER-neh",
+          "minMonth": 6
+        },
+        {
+          "english": "Orange",
+          "german": "Orange",
+          "pronunciation": "oh-RAHN-zheh",
+          "minMonth": 10
+        }
+      ]
     },
     {
       "id": 16,
@@ -306,7 +338,39 @@
       "pronunciation": "voh ist dair BAL",
       "topic": "playing",
       "startMonth": 6,
-      "context": "Looking for toy"
+      "context": "Looking for toy",
+      "relatedVocabulary": [
+        {
+          "english": "Toy",
+          "german": "Spielzeug",
+          "pronunciation": "SHPEEL-tsoyg",
+          "minMonth": 6
+        },
+        {
+          "english": "Block",
+          "german": "Baustein",
+          "pronunciation": "BOW-shtine",
+          "minMonth": 8
+        },
+        {
+          "english": "Doll",
+          "german": "Puppe",
+          "pronunciation": "PUP-peh",
+          "minMonth": 10
+        },
+        {
+          "english": "Car (toy)",
+          "german": "Auto",
+          "pronunciation": "OW-toh",
+          "minMonth": 8
+        },
+        {
+          "english": "Teddy bear",
+          "german": "Teddybär",
+          "pronunciation": "TED-dee-bair",
+          "minMonth": 6
+        }
+      ]
     },
     {
       "id": 25,
@@ -342,7 +406,33 @@
       "pronunciation": "das ist DAY-neh HANT",
       "topic": "body",
       "startMonth": 3,
-      "context": "Teaching body parts"
+      "context": "Teaching body parts",
+      "relatedVocabulary": [
+        {
+          "english": "Fingers",
+          "german": "Finger",
+          "pronunciation": "FING-er",
+          "minMonth": 4
+        },
+        {
+          "english": "Thumb",
+          "german": "Daumen",
+          "pronunciation": "DOW-men",
+          "minMonth": 5
+        },
+        {
+          "english": "Arm",
+          "german": "Arm",
+          "pronunciation": "ARM",
+          "minMonth": 6
+        },
+        {
+          "english": "Elbow",
+          "german": "Ellbogen",
+          "pronunciation": "EL-boh-gen",
+          "minMonth": 12
+        }
+      ]
     },
     {
       "id": 29,
@@ -558,7 +648,33 @@
       "pronunciation": "das ist GELP",
       "topic": "colors",
       "startMonth": 9,
-      "context": "Teaching colors"
+      "context": "Teaching colors",
+      "relatedVocabulary": [
+        {
+          "english": "Sun",
+          "german": "Sonne",
+          "pronunciation": "ZON-neh",
+          "minMonth": 9
+        },
+        {
+          "english": "Banana",
+          "german": "Banane",
+          "pronunciation": "bah-NAH-neh",
+          "minMonth": 9
+        },
+        {
+          "english": "Lemon",
+          "german": "Zitrone",
+          "pronunciation": "tsit-ROH-neh",
+          "minMonth": 12
+        },
+        {
+          "english": "Duckling",
+          "german": "Entchen",
+          "pronunciation": "ENT-khen",
+          "minMonth": 10
+        }
+      ]
     },
     {
       "id": 53,
@@ -657,7 +773,33 @@
       "pronunciation": "show deer den HOONT an",
       "topic": "animals",
       "startMonth": 8,
-      "context": "Animal spotting"
+      "context": "Animal spotting",
+      "relatedVocabulary": [
+        {
+          "english": "Cat",
+          "german": "Katze",
+          "pronunciation": "KAT-seh",
+          "minMonth": 8
+        },
+        {
+          "english": "Fish",
+          "german": "Fisch",
+          "pronunciation": "FISH",
+          "minMonth": 10
+        },
+        {
+          "english": "Rabbit",
+          "german": "Hase",
+          "pronunciation": "HAH-zeh",
+          "minMonth": 12
+        },
+        {
+          "english": "Horse",
+          "german": "Pferd",
+          "pronunciation": "PFAIRT",
+          "minMonth": 14
+        }
+      ]
     },
     {
       "id": 64,
