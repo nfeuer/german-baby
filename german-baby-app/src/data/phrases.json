@@ -1313,6 +1313,1344 @@
       "topic": "routines",
       "startMonth": 18,
       "context": "Household instruction"
+    },
+    {
+      "id": 121,
+      "english": "Do you like it?",
+      "german": "Magst du es?",
+      "pronunciation": "MAGST doo es",
+      "topic": "eating",
+      "startMonth": 10,
+      "context": "Asking about food preference"
+    },
+    {
+      "id": 122,
+      "english": "Eat your vegetables",
+      "german": "Iss dein Gemüse",
+      "pronunciation": "iss dain geh-MOO-zeh",
+      "topic": "eating",
+      "startMonth": 12,
+      "context": "Encouraging healthy eating",
+      "relatedVocabulary": [
+        {
+          "english": "Carrot",
+          "german": "Karotte",
+          "pronunciation": "kah-ROT-teh",
+          "minMonth": 8
+        },
+        {
+          "english": "Broccoli",
+          "german": "Brokkoli",
+          "pronunciation": "BROK-ko-lee",
+          "minMonth": 12
+        },
+        {
+          "english": "Peas",
+          "german": "Erbsen",
+          "pronunciation": "AIRP-sen",
+          "minMonth": 10
+        },
+        {
+          "english": "Potato",
+          "german": "Kartoffel",
+          "pronunciation": "kar-TOF-fel",
+          "minMonth": 8
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "english": "Use your spoon",
+      "german": "Benutze deinen Löffel",
+      "pronunciation": "beh-NOOT-seh DAY-nen LUR-fel",
+      "topic": "eating",
+      "startMonth": 14,
+      "context": "Teaching utensil use",
+      "relatedVocabulary": [
+        {
+          "english": "Fork",
+          "german": "Gabel",
+          "pronunciation": "GAH-bel",
+          "minMonth": 18
+        },
+        {
+          "english": "Cup",
+          "german": "Tasse",
+          "pronunciation": "TAS-seh",
+          "minMonth": 12
+        },
+        {
+          "english": "Plate",
+          "german": "Teller",
+          "pronunciation": "TEL-ler",
+          "minMonth": 14
+        },
+        {
+          "english": "Bowl",
+          "german": "Schüssel",
+          "pronunciation": "SHOOS-sel",
+          "minMonth": 12
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "english": "Breakfast time",
+      "german": "Frühstückszeit",
+      "pronunciation": "FROO-shtuks-tsait",
+      "topic": "eating",
+      "startMonth": 16,
+      "context": "Morning meal"
+    },
+    {
+      "id": 125,
+      "english": "Lunch time",
+      "german": "Mittagszeit",
+      "pronunciation": "MIT-tahgs-tsait",
+      "topic": "eating",
+      "startMonth": 16,
+      "context": "Midday meal"
+    },
+    {
+      "id": 126,
+      "english": "Dinner time",
+      "german": "Abendessenszeit",
+      "pronunciation": "AH-bent-es-sens-tsait",
+      "topic": "eating",
+      "startMonth": 16,
+      "context": "Evening meal"
+    },
+    {
+      "id": 127,
+      "english": "Milk",
+      "german": "Milch",
+      "pronunciation": "MILKH",
+      "topic": "eating",
+      "startMonth": 0,
+      "context": "Beverage"
+    },
+    {
+      "id": 128,
+      "english": "Juice",
+      "german": "Saft",
+      "pronunciation": "ZAFT",
+      "topic": "eating",
+      "startMonth": 10,
+      "context": "Beverage"
+    },
+    {
+      "id": 129,
+      "english": "Bread",
+      "german": "Brot",
+      "pronunciation": "BROHT",
+      "topic": "eating",
+      "startMonth": 10,
+      "context": "Food item"
+    },
+    {
+      "id": 130,
+      "english": "Cheese",
+      "german": "Käse",
+      "pronunciation": "KAY-zeh",
+      "topic": "eating",
+      "startMonth": 12,
+      "context": "Food item"
+    },
+    {
+      "id": 131,
+      "english": "Egg",
+      "german": "Ei",
+      "pronunciation": "AY",
+      "topic": "eating",
+      "startMonth": 10,
+      "context": "Food item"
+    },
+    {
+      "id": 132,
+      "english": "Cereal",
+      "german": "Müsli",
+      "pronunciation": "MOOS-lee",
+      "topic": "eating",
+      "startMonth": 14,
+      "context": "Breakfast food"
+    },
+    {
+      "id": 133,
+      "english": "Wake up, sunshine!",
+      "german": "Wach auf, Sonnenschein!",
+      "pronunciation": "vakh OWF, ZON-nen-shine",
+      "topic": "sleep",
+      "startMonth": 3,
+      "context": "Morning greeting"
+    },
+    {
+      "id": 134,
+      "english": "Time for your nap",
+      "german": "Zeit für dein Nickerchen",
+      "pronunciation": "tsait foor dain NIK-ker-khen",
+      "topic": "sleep",
+      "startMonth": 2,
+      "context": "Naptime"
+    },
+    {
+      "id": 135,
+      "english": "Sleep tight",
+      "german": "Schlaf gut",
+      "pronunciation": "SHLAHF goot",
+      "topic": "sleep",
+      "startMonth": 0,
+      "context": "Bedtime wish"
+    },
+    {
+      "id": 136,
+      "english": "Close your eyes",
+      "german": "Mach die Augen zu",
+      "pronunciation": "makh dee OW-gen tsoo",
+      "topic": "sleep",
+      "startMonth": 6,
+      "context": "Bedtime instruction"
+    },
+    {
+      "id": 137,
+      "english": "Quiet time",
+      "german": "Ruhezeit",
+      "pronunciation": "ROO-eh-tsait",
+      "topic": "sleep",
+      "startMonth": 8,
+      "context": "Calm time"
+    },
+    {
+      "id": 138,
+      "english": "Shh, be quiet",
+      "german": "Psst, sei leise",
+      "pronunciation": "psst zay LY-zeh",
+      "topic": "sleep",
+      "startMonth": 12,
+      "context": "Quiet request"
+    },
+    {
+      "id": 139,
+      "english": "It's dark outside",
+      "german": "Es ist dunkel draußen",
+      "pronunciation": "es ist DOON-kel DROW-sen",
+      "topic": "sleep",
+      "startMonth": 10,
+      "context": "Nighttime observation"
+    },
+    {
+      "id": 140,
+      "english": "The moon",
+      "german": "Der Mond",
+      "pronunciation": "dair MOHNT",
+      "topic": "sleep",
+      "startMonth": 8,
+      "context": "Nighttime object"
+    },
+    {
+      "id": 141,
+      "english": "Stars",
+      "german": "Sterne",
+      "pronunciation": "SHTAIR-neh",
+      "topic": "sleep",
+      "startMonth": 12,
+      "context": "Nighttime objects"
+    },
+    {
+      "id": 142,
+      "english": "Your blanket",
+      "german": "Deine Decke",
+      "pronunciation": "DAY-neh DEK-keh",
+      "topic": "sleep",
+      "startMonth": 4,
+      "context": "Bedding"
+    },
+    {
+      "id": 143,
+      "english": "Your pillow",
+      "german": "Dein Kissen",
+      "pronunciation": "dain KIS-sen",
+      "topic": "sleep",
+      "startMonth": 8,
+      "context": "Bedding"
+    },
+    {
+      "id": 144,
+      "english": "Sing a song",
+      "german": "Sing ein Lied",
+      "pronunciation": "zing ain LEED",
+      "topic": "playing",
+      "startMonth": 8,
+      "context": "Musical activity"
+    },
+    {
+      "id": 145,
+      "english": "Clap your hands",
+      "german": "Klatsch in die Hände",
+      "pronunciation": "klatsh in dee HEN-deh",
+      "topic": "playing",
+      "startMonth": 8,
+      "context": "Action song"
+    },
+    {
+      "id": 146,
+      "english": "Jump!",
+      "german": "Spring!",
+      "pronunciation": "SHPRING",
+      "topic": "playing",
+      "startMonth": 16,
+      "context": "Physical activity"
+    },
+    {
+      "id": 147,
+      "english": "Run!",
+      "german": "Lauf!",
+      "pronunciation": "LOWF",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Physical activity"
+    },
+    {
+      "id": 148,
+      "english": "Throw the ball",
+      "german": "Wirf den Ball",
+      "pronunciation": "virf den BAL",
+      "topic": "playing",
+      "startMonth": 14,
+      "context": "Playing catch"
+    },
+    {
+      "id": 149,
+      "english": "Kick the ball",
+      "german": "Tritt den Ball",
+      "pronunciation": "trit den BAL",
+      "topic": "playing",
+      "startMonth": 18,
+      "context": "Playing soccer"
+    },
+    {
+      "id": 150,
+      "english": "Push",
+      "german": "Schieb",
+      "pronunciation": "SHEEB",
+      "topic": "playing",
+      "startMonth": 12,
+      "context": "Physical action"
+    },
+    {
+      "id": 151,
+      "english": "Pull",
+      "german": "Zieh",
+      "pronunciation": "TSEE",
+      "topic": "playing",
+      "startMonth": 12,
+      "context": "Physical action"
+    },
+    {
+      "id": 152,
+      "english": "Let's draw",
+      "german": "Lass uns malen",
+      "pronunciation": "las oons MAH-len",
+      "topic": "playing",
+      "startMonth": 16,
+      "context": "Art activity",
+      "relatedVocabulary": [
+        {
+          "english": "Crayon",
+          "german": "Buntstift",
+          "pronunciation": "BOONT-shtift",
+          "minMonth": 16
+        },
+        {
+          "english": "Paper",
+          "german": "Papier",
+          "pronunciation": "pah-PEER",
+          "minMonth": 16
+        },
+        {
+          "english": "Picture",
+          "german": "Bild",
+          "pronunciation": "BILT",
+          "minMonth": 14
+        },
+        {
+          "english": "Paint",
+          "german": "Farbe",
+          "pronunciation": "FAR-beh",
+          "minMonth": 18
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "english": "Let's play outside",
+      "german": "Lass uns draußen spielen",
+      "pronunciation": "las oons DROW-sen SHPEE-len",
+      "topic": "playing",
+      "startMonth": 12,
+      "context": "Outdoor play"
+    },
+    {
+      "id": 154,
+      "english": "Swing",
+      "german": "Schaukel",
+      "pronunciation": "SHOW-kel",
+      "topic": "playing",
+      "startMonth": 14,
+      "context": "Playground equipment"
+    },
+    {
+      "id": 155,
+      "english": "Slide",
+      "german": "Rutsche",
+      "pronunciation": "ROOT-sheh",
+      "topic": "playing",
+      "startMonth": 16,
+      "context": "Playground equipment"
+    },
+    {
+      "id": 156,
+      "english": "Sandbox",
+      "german": "Sandkasten",
+      "pronunciation": "ZANT-kas-ten",
+      "topic": "playing",
+      "startMonth": 14,
+      "context": "Play area"
+    },
+    {
+      "id": 157,
+      "english": "Bubbles!",
+      "german": "Seifenblasen!",
+      "pronunciation": "ZAY-fen-blah-zen",
+      "topic": "playing",
+      "startMonth": 10,
+      "context": "Fun activity"
+    },
+    {
+      "id": 158,
+      "english": "Hide and seek",
+      "german": "Verstecken spielen",
+      "pronunciation": "fer-SHTEK-en SHPEE-len",
+      "topic": "playing",
+      "startMonth": 20,
+      "context": "Game"
+    },
+    {
+      "id": 159,
+      "english": "Your toes",
+      "german": "Deine Zehen",
+      "pronunciation": "DAY-neh TSAY-en",
+      "topic": "body",
+      "startMonth": 4,
+      "context": "Body part"
+    },
+    {
+      "id": 160,
+      "english": "Your legs",
+      "german": "Deine Beine",
+      "pronunciation": "DAY-neh BY-neh",
+      "topic": "body",
+      "startMonth": 6,
+      "context": "Body part"
+    },
+    {
+      "id": 161,
+      "english": "Your knees",
+      "german": "Deine Knie",
+      "pronunciation": "DAY-neh k-NEE",
+      "topic": "body",
+      "startMonth": 10,
+      "context": "Body part"
+    },
+    {
+      "id": 162,
+      "english": "Your shoulders",
+      "german": "Deine Schultern",
+      "pronunciation": "DAY-neh SHOOL-tern",
+      "topic": "body",
+      "startMonth": 12,
+      "context": "Body part"
+    },
+    {
+      "id": 163,
+      "english": "Your back",
+      "german": "Dein Rücken",
+      "pronunciation": "dain ROO-ken",
+      "topic": "body",
+      "startMonth": 10,
+      "context": "Body part"
+    },
+    {
+      "id": 164,
+      "english": "Your teeth",
+      "german": "Deine Zähne",
+      "pronunciation": "DAY-neh TSAY-neh",
+      "topic": "body",
+      "startMonth": 10,
+      "context": "Body part"
+    },
+    {
+      "id": 165,
+      "english": "Your tongue",
+      "german": "Deine Zunge",
+      "pronunciation": "DAY-neh TSOON-geh",
+      "topic": "body",
+      "startMonth": 12,
+      "context": "Body part"
+    },
+    {
+      "id": 166,
+      "english": "Your hair",
+      "german": "Deine Haare",
+      "pronunciation": "DAY-neh HAH-reh",
+      "topic": "body",
+      "startMonth": 8,
+      "context": "Body part"
+    },
+    {
+      "id": 167,
+      "english": "Your head",
+      "german": "Dein Kopf",
+      "pronunciation": "dain KOPF",
+      "topic": "body",
+      "startMonth": 6,
+      "context": "Body part"
+    },
+    {
+      "id": 168,
+      "english": "Your neck",
+      "german": "Dein Hals",
+      "pronunciation": "dain HALS",
+      "topic": "body",
+      "startMonth": 10,
+      "context": "Body part"
+    },
+    {
+      "id": 169,
+      "english": "You're excited!",
+      "german": "Du bist aufgeregt!",
+      "pronunciation": "doo bist OWF-geh-regt",
+      "topic": "emotions",
+      "startMonth": 10,
+      "context": "Naming emotion"
+    },
+    {
+      "id": 170,
+      "english": "You're angry",
+      "german": "Du bist wütend",
+      "pronunciation": "doo bist VOO-tent",
+      "topic": "emotions",
+      "startMonth": 14,
+      "context": "Naming emotion"
+    },
+    {
+      "id": 171,
+      "english": "You're sleepy",
+      "german": "Du bist schläfrig",
+      "pronunciation": "doo bist SHLAYF-rikh",
+      "topic": "emotions",
+      "startMonth": 8,
+      "context": "Naming emotion"
+    },
+    {
+      "id": 172,
+      "english": "You're silly!",
+      "german": "Du bist albern!",
+      "pronunciation": "doo bist AL-bern",
+      "topic": "emotions",
+      "startMonth": 12,
+      "context": "Playful observation"
+    },
+    {
+      "id": 173,
+      "english": "Are you okay?",
+      "german": "Bist du okay?",
+      "pronunciation": "bist doo oh-KAY",
+      "topic": "emotions",
+      "startMonth": 12,
+      "context": "Checking wellbeing"
+    },
+    {
+      "id": 174,
+      "english": "It's okay",
+      "german": "Es ist okay",
+      "pronunciation": "es ist oh-KAY",
+      "topic": "emotions",
+      "startMonth": 6,
+      "context": "Comforting"
+    },
+    {
+      "id": 175,
+      "english": "I'm here",
+      "german": "Ich bin hier",
+      "pronunciation": "ikh bin HEER",
+      "topic": "emotions",
+      "startMonth": 4,
+      "context": "Reassurance"
+    },
+    {
+      "id": 176,
+      "english": "You're brave",
+      "german": "Du bist mutig",
+      "pronunciation": "doo bist MOO-tikh",
+      "topic": "emotions",
+      "startMonth": 16,
+      "context": "Encouragement"
+    },
+    {
+      "id": 177,
+      "english": "You're strong",
+      "german": "Du bist stark",
+      "pronunciation": "doo bist SHTARK",
+      "topic": "emotions",
+      "startMonth": 14,
+      "context": "Encouragement"
+    },
+    {
+      "id": 178,
+      "english": "I'm proud of you",
+      "german": "Ich bin stolz auf dich",
+      "pronunciation": "ikh bin SHTOLTS owf dikh",
+      "topic": "emotions",
+      "startMonth": 16,
+      "context": "Praise"
+    },
+    {
+      "id": 179,
+      "english": "It's windy",
+      "german": "Es ist windig",
+      "pronunciation": "es ist VIN-dikh",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Weather observation"
+    },
+    {
+      "id": 180,
+      "english": "It's snowing",
+      "german": "Es schneit",
+      "pronunciation": "es SHNAIT",
+      "topic": "weather",
+      "startMonth": 14,
+      "context": "Weather observation"
+    },
+    {
+      "id": 181,
+      "english": "Rainbow",
+      "german": "Regenbogen",
+      "pronunciation": "RAY-gen-boh-gen",
+      "topic": "weather",
+      "startMonth": 16,
+      "context": "Weather phenomenon"
+    },
+    {
+      "id": 182,
+      "english": "Thunder",
+      "german": "Donner",
+      "pronunciation": "DON-ner",
+      "topic": "weather",
+      "startMonth": 14,
+      "context": "Weather sound"
+    },
+    {
+      "id": 183,
+      "english": "Lightning",
+      "german": "Blitz",
+      "pronunciation": "BLITS",
+      "topic": "weather",
+      "startMonth": 16,
+      "context": "Weather phenomenon"
+    },
+    {
+      "id": 184,
+      "english": "Puddle",
+      "german": "Pfütze",
+      "pronunciation": "PFOO-tseh",
+      "topic": "weather",
+      "startMonth": 16,
+      "context": "After rain"
+    },
+    {
+      "id": 185,
+      "english": "Tree",
+      "german": "Baum",
+      "pronunciation": "BOWM",
+      "topic": "weather",
+      "startMonth": 10,
+      "context": "Nature"
+    },
+    {
+      "id": 186,
+      "english": "Leaf",
+      "german": "Blatt",
+      "pronunciation": "BLAT",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Nature"
+    },
+    {
+      "id": 187,
+      "english": "Grass",
+      "german": "Gras",
+      "pronunciation": "GRAHS",
+      "topic": "weather",
+      "startMonth": 10,
+      "context": "Nature"
+    },
+    {
+      "id": 188,
+      "english": "Rock",
+      "german": "Stein",
+      "pronunciation": "SHTINE",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Nature"
+    },
+    {
+      "id": 189,
+      "english": "Stick",
+      "german": "Stock",
+      "pronunciation": "SHTOK",
+      "topic": "weather",
+      "startMonth": 12,
+      "context": "Nature"
+    },
+    {
+      "id": 190,
+      "english": "Bug",
+      "german": "Käfer",
+      "pronunciation": "KAY-fer",
+      "topic": "weather",
+      "startMonth": 14,
+      "context": "Nature"
+    },
+    {
+      "id": 191,
+      "english": "Butterfly",
+      "german": "Schmetterling",
+      "pronunciation": "SHMET-ter-ling",
+      "topic": "weather",
+      "startMonth": 16,
+      "context": "Nature"
+    },
+    {
+      "id": 192,
+      "english": "Time to change your diaper",
+      "german": "Zeit die Windel zu wechseln",
+      "pronunciation": "tsait dee VIN-del tsoo VEK-seln",
+      "topic": "hygiene",
+      "startMonth": 0,
+      "context": "Diaper change"
+    },
+    {
+      "id": 193,
+      "english": "You're clean!",
+      "german": "Du bist sauber!",
+      "pronunciation": "doo bist ZOW-ber",
+      "topic": "hygiene",
+      "startMonth": 6,
+      "context": "After cleaning"
+    },
+    {
+      "id": 194,
+      "english": "Dry off",
+      "german": "Trockne dich ab",
+      "pronunciation": "TROK-neh dikh ab",
+      "topic": "hygiene",
+      "startMonth": 12,
+      "context": "After bath"
+    },
+    {
+      "id": 195,
+      "english": "Soap",
+      "german": "Seife",
+      "pronunciation": "ZAY-feh",
+      "topic": "hygiene",
+      "startMonth": 10,
+      "context": "Bath item"
+    },
+    {
+      "id": 196,
+      "english": "Towel",
+      "german": "Handtuch",
+      "pronunciation": "HANT-tookh",
+      "topic": "hygiene",
+      "startMonth": 12,
+      "context": "Bath item"
+    },
+    {
+      "id": 197,
+      "english": "Comb your hair",
+      "german": "Kämm deine Haare",
+      "pronunciation": "kemm DAY-neh HAH-reh",
+      "topic": "hygiene",
+      "startMonth": 16,
+      "context": "Grooming"
+    },
+    {
+      "id": 198,
+      "english": "Tissue",
+      "german": "Taschentuch",
+      "pronunciation": "TA-shen-tookh",
+      "topic": "hygiene",
+      "startMonth": 14,
+      "context": "Hygiene item"
+    },
+    {
+      "id": 199,
+      "english": "Potty time",
+      "german": "Töpfchenzeit",
+      "pronunciation": "TURPF-khen-tsait",
+      "topic": "hygiene",
+      "startMonth": 18,
+      "context": "Toilet training"
+    },
+    {
+      "id": 200,
+      "english": "Flush",
+      "german": "Spülen",
+      "pronunciation": "SHPOO-len",
+      "topic": "hygiene",
+      "startMonth": 20,
+      "context": "Toilet use"
+    },
+    {
+      "id": 201,
+      "english": "Purple",
+      "german": "Lila",
+      "pronunciation": "LEE-lah",
+      "topic": "colors",
+      "startMonth": 12,
+      "context": "Color"
+    },
+    {
+      "id": 202,
+      "english": "Orange",
+      "german": "Orange",
+      "pronunciation": "oh-RAHN-zheh",
+      "topic": "colors",
+      "startMonth": 11,
+      "context": "Color"
+    },
+    {
+      "id": 203,
+      "english": "Pink",
+      "german": "Rosa",
+      "pronunciation": "ROH-zah",
+      "topic": "colors",
+      "startMonth": 12,
+      "context": "Color"
+    },
+    {
+      "id": 204,
+      "english": "Brown",
+      "german": "Braun",
+      "pronunciation": "BROWN",
+      "topic": "colors",
+      "startMonth": 13,
+      "context": "Color"
+    },
+    {
+      "id": 205,
+      "english": "Black",
+      "german": "Schwarz",
+      "pronunciation": "SHVARTS",
+      "topic": "colors",
+      "startMonth": 11,
+      "context": "Color"
+    },
+    {
+      "id": 206,
+      "english": "White",
+      "german": "Weiß",
+      "pronunciation": "VICE",
+      "topic": "colors",
+      "startMonth": 11,
+      "context": "Color"
+    },
+    {
+      "id": 207,
+      "english": "Square",
+      "german": "Quadrat",
+      "pronunciation": "kvah-DRAHT",
+      "topic": "colors",
+      "startMonth": 20,
+      "context": "Shape"
+    },
+    {
+      "id": 208,
+      "english": "Triangle",
+      "german": "Dreieck",
+      "pronunciation": "DRY-ek",
+      "topic": "colors",
+      "startMonth": 20,
+      "context": "Shape"
+    },
+    {
+      "id": 209,
+      "english": "Star",
+      "german": "Stern",
+      "pronunciation": "SHTERN",
+      "topic": "colors",
+      "startMonth": 18,
+      "context": "Shape"
+    },
+    {
+      "id": 210,
+      "english": "Heart",
+      "german": "Herz",
+      "pronunciation": "HERTS",
+      "topic": "colors",
+      "startMonth": 18,
+      "context": "Shape"
+    },
+    {
+      "id": 211,
+      "english": "Four",
+      "german": "Vier",
+      "pronunciation": "FEER",
+      "topic": "numbers",
+      "startMonth": 18,
+      "context": "Number"
+    },
+    {
+      "id": 212,
+      "english": "Five",
+      "german": "Fünf",
+      "pronunciation": "FOONF",
+      "topic": "numbers",
+      "startMonth": 20,
+      "context": "Number"
+    },
+    {
+      "id": 213,
+      "english": "Six",
+      "german": "Sechs",
+      "pronunciation": "ZEKS",
+      "topic": "numbers",
+      "startMonth": 22,
+      "context": "Number"
+    },
+    {
+      "id": 214,
+      "english": "Seven",
+      "german": "Sieben",
+      "pronunciation": "ZEE-ben",
+      "topic": "numbers",
+      "startMonth": 22,
+      "context": "Number"
+    },
+    {
+      "id": 215,
+      "english": "Eight",
+      "german": "Acht",
+      "pronunciation": "AKHT",
+      "topic": "numbers",
+      "startMonth": 24,
+      "context": "Number"
+    },
+    {
+      "id": 216,
+      "english": "Nine",
+      "german": "Neun",
+      "pronunciation": "NOYN",
+      "topic": "numbers",
+      "startMonth": 24,
+      "context": "Number"
+    },
+    {
+      "id": 217,
+      "english": "Ten",
+      "german": "Zehn",
+      "pronunciation": "TSAYN",
+      "topic": "numbers",
+      "startMonth": 24,
+      "context": "Number"
+    },
+    {
+      "id": 218,
+      "english": "Pig",
+      "german": "Schwein",
+      "pronunciation": "SHVINE",
+      "topic": "animals",
+      "startMonth": 14,
+      "context": "Farm animal"
+    },
+    {
+      "id": 219,
+      "english": "Sheep",
+      "german": "Schaf",
+      "pronunciation": "SHAHF",
+      "topic": "animals",
+      "startMonth": 14,
+      "context": "Farm animal"
+    },
+    {
+      "id": 220,
+      "english": "Chicken",
+      "german": "Huhn",
+      "pronunciation": "HOON",
+      "topic": "animals",
+      "startMonth": 12,
+      "context": "Farm animal"
+    },
+    {
+      "id": 221,
+      "english": "Duck",
+      "german": "Ente",
+      "pronunciation": "EN-teh",
+      "topic": "animals",
+      "startMonth": 10,
+      "context": "Animal"
+    },
+    {
+      "id": 222,
+      "english": "Frog",
+      "german": "Frosch",
+      "pronunciation": "FROSH",
+      "topic": "animals",
+      "startMonth": 16,
+      "context": "Animal"
+    },
+    {
+      "id": 223,
+      "english": "Monkey",
+      "german": "Affe",
+      "pronunciation": "AF-feh",
+      "topic": "animals",
+      "startMonth": 16,
+      "context": "Zoo animal"
+    },
+    {
+      "id": 224,
+      "english": "Elephant",
+      "german": "Elefant",
+      "pronunciation": "el-eh-FANT",
+      "topic": "animals",
+      "startMonth": 16,
+      "context": "Zoo animal"
+    },
+    {
+      "id": 225,
+      "english": "Lion",
+      "german": "Löwe",
+      "pronunciation": "LUR-veh",
+      "topic": "animals",
+      "startMonth": 18,
+      "context": "Zoo animal"
+    },
+    {
+      "id": 226,
+      "english": "Bear",
+      "german": "Bär",
+      "pronunciation": "BAIR",
+      "topic": "animals",
+      "startMonth": 14,
+      "context": "Animal"
+    },
+    {
+      "id": 227,
+      "english": "Mouse",
+      "german": "Maus",
+      "pronunciation": "MOWS",
+      "topic": "animals",
+      "startMonth": 14,
+      "context": "Small animal"
+    },
+    {
+      "id": 228,
+      "english": "Turtle",
+      "german": "Schildkröte",
+      "pronunciation": "SHILT-krur-teh",
+      "topic": "animals",
+      "startMonth": 18,
+      "context": "Animal"
+    },
+    {
+      "id": 229,
+      "english": "Snake",
+      "german": "Schlange",
+      "pronunciation": "SHLANG-eh",
+      "topic": "animals",
+      "startMonth": 18,
+      "context": "Animal"
+    },
+    {
+      "id": 230,
+      "english": "Pants",
+      "german": "Hose",
+      "pronunciation": "HOH-zeh",
+      "topic": "clothing",
+      "startMonth": 14,
+      "context": "Clothing item"
+    },
+    {
+      "id": 231,
+      "english": "Shirt",
+      "german": "Hemd",
+      "pronunciation": "HEMT",
+      "topic": "clothing",
+      "startMonth": 14,
+      "context": "Clothing item"
+    },
+    {
+      "id": 232,
+      "english": "Dress",
+      "german": "Kleid",
+      "pronunciation": "KLIDE",
+      "topic": "clothing",
+      "startMonth": 16,
+      "context": "Clothing item"
+    },
+    {
+      "id": 233,
+      "english": "Coat",
+      "german": "Mantel",
+      "pronunciation": "MAN-tel",
+      "topic": "clothing",
+      "startMonth": 12,
+      "context": "Outerwear"
+    },
+    {
+      "id": 234,
+      "english": "Mittens",
+      "german": "Fäustlinge",
+      "pronunciation": "FOYST-ling-eh",
+      "topic": "clothing",
+      "startMonth": 16,
+      "context": "Winter wear"
+    },
+    {
+      "id": 235,
+      "english": "Scarf",
+      "german": "Schal",
+      "pronunciation": "SHAHL",
+      "topic": "clothing",
+      "startMonth": 16,
+      "context": "Winter wear"
+    },
+    {
+      "id": 236,
+      "english": "Boots",
+      "german": "Stiefel",
+      "pronunciation": "SHTEE-fel",
+      "topic": "clothing",
+      "startMonth": 16,
+      "context": "Footwear"
+    },
+    {
+      "id": 237,
+      "english": "Pajamas",
+      "german": "Schlafanzug",
+      "pronunciation": "SHLAHF-an-tsoog",
+      "topic": "clothing",
+      "startMonth": 14,
+      "context": "Sleepwear"
+    },
+    {
+      "id": 238,
+      "english": "Diaper",
+      "german": "Windel",
+      "pronunciation": "VIN-del",
+      "topic": "clothing",
+      "startMonth": 8,
+      "context": "Baby clothing"
+    },
+    {
+      "id": 239,
+      "english": "Bicycle",
+      "german": "Fahrrad",
+      "pronunciation": "FAR-raht",
+      "topic": "transport",
+      "startMonth": 18,
+      "context": "Vehicle"
+    },
+    {
+      "id": 240,
+      "english": "Train",
+      "german": "Zug",
+      "pronunciation": "TSOOG",
+      "topic": "transport",
+      "startMonth": 14,
+      "context": "Vehicle"
+    },
+    {
+      "id": 241,
+      "english": "Boat",
+      "german": "Boot",
+      "pronunciation": "BOHT",
+      "topic": "transport",
+      "startMonth": 16,
+      "context": "Vehicle"
+    },
+    {
+      "id": 242,
+      "english": "Helicopter",
+      "german": "Hubschrauber",
+      "pronunciation": "HOOP-shrow-ber",
+      "topic": "transport",
+      "startMonth": 18,
+      "context": "Vehicle"
+    },
+    {
+      "id": 243,
+      "english": "Stroller",
+      "german": "Kinderwagen",
+      "pronunciation": "KIN-der-vah-gen",
+      "topic": "transport",
+      "startMonth": 10,
+      "context": "Baby transport"
+    },
+    {
+      "id": 244,
+      "english": "Buckle up",
+      "german": "Schnall dich an",
+      "pronunciation": "shnall dikh AN",
+      "topic": "transport",
+      "startMonth": 14,
+      "context": "Car safety"
+    },
+    {
+      "id": 245,
+      "english": "Friend",
+      "german": "Freund",
+      "pronunciation": "FROYNT",
+      "topic": "family",
+      "startMonth": 16,
+      "context": "Social"
+    },
+    {
+      "id": 246,
+      "english": "Baby",
+      "german": "Baby",
+      "pronunciation": "BAY-bee",
+      "topic": "family",
+      "startMonth": 8,
+      "context": "Person"
+    },
+    {
+      "id": 247,
+      "english": "Aunt",
+      "german": "Tante",
+      "pronunciation": "TAN-teh",
+      "topic": "family",
+      "startMonth": 14,
+      "context": "Family member"
+    },
+    {
+      "id": 248,
+      "english": "Uncle",
+      "german": "Onkel",
+      "pronunciation": "ON-kel",
+      "topic": "family",
+      "startMonth": 14,
+      "context": "Family member"
+    },
+    {
+      "id": 249,
+      "english": "Cousin",
+      "german": "Cousin",
+      "pronunciation": "koo-ZANG",
+      "topic": "family",
+      "startMonth": 18,
+      "context": "Family member"
+    },
+    {
+      "id": 250,
+      "english": "See you later!",
+      "german": "Bis später!",
+      "pronunciation": "bis SHPAY-ter",
+      "topic": "greetings",
+      "startMonth": 12,
+      "context": "Goodbye"
+    },
+    {
+      "id": 251,
+      "english": "Bye bye!",
+      "german": "Tschüss!",
+      "pronunciation": "CHOOS",
+      "topic": "greetings",
+      "startMonth": 8,
+      "context": "Goodbye"
+    },
+    {
+      "id": 252,
+      "english": "Wave goodbye",
+      "german": "Winke zum Abschied",
+      "pronunciation": "VINK-eh tsum AP-sheet",
+      "topic": "greetings",
+      "startMonth": 9,
+      "context": "Goodbye gesture"
+    },
+    {
+      "id": 253,
+      "english": "Welcome!",
+      "german": "Willkommen!",
+      "pronunciation": "vil-KOM-men",
+      "topic": "greetings",
+      "startMonth": 14,
+      "context": "Greeting"
+    },
+    {
+      "id": 254,
+      "english": "You're welcome",
+      "german": "Bitte schön",
+      "pronunciation": "BIT-teh SHURN",
+      "topic": "greetings",
+      "startMonth": 18,
+      "context": "Response to thanks"
+    },
+    {
+      "id": 255,
+      "english": "Excuse me",
+      "german": "Entschuldigung",
+      "pronunciation": "ent-SHOOL-di-goong",
+      "topic": "greetings",
+      "startMonth": 20,
+      "context": "Politeness"
+    },
+    {
+      "id": 256,
+      "english": "I'm sorry",
+      "german": "Es tut mir leid",
+      "pronunciation": "es toot meer LITE",
+      "topic": "emotions",
+      "startMonth": 20,
+      "context": "Apology"
+    },
+    {
+      "id": 257,
+      "english": "That's nice",
+      "german": "Das ist schön",
+      "pronunciation": "das ist SHURN",
+      "topic": "greetings",
+      "startMonth": 14,
+      "context": "Positive response"
+    },
+    {
+      "id": 258,
+      "english": "Beautiful",
+      "german": "Wunderschön",
+      "pronunciation": "VOON-der-shurn",
+      "topic": "greetings",
+      "startMonth": 16,
+      "context": "Compliment"
+    },
+    {
+      "id": 259,
+      "english": "Amazing!",
+      "german": "Toll!",
+      "pronunciation": "TOHL",
+      "topic": "greetings",
+      "startMonth": 12,
+      "context": "Praise"
+    },
+    {
+      "id": 260,
+      "english": "Wonderful!",
+      "german": "Wunderbar!",
+      "pronunciation": "VOON-der-bar",
+      "topic": "greetings",
+      "startMonth": 14,
+      "context": "Praise"
     }
   ]
 }
