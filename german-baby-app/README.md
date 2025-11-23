@@ -107,8 +107,16 @@ npm run build
 
 The built files will be in the `dist` folder, ready to deploy.
 
+## 📖 Documentation
+
+### Quick Links
+- **[📖 USER GUIDE](./USER-GUIDE.md)** - Complete how-to guide with examples
+- **[📱 Install on Phone](./INSTALL-ON-PHONE.md)** - iOS and Android installation
+- **[🎨 Icon Setup](./public/ICON-SETUP.md)** - Create app icons
+
 ## How to Use
 
+### Quick Start
 1. **Select Your Baby's Age**: Click on the appropriate month range (0-3, 3-6, 6-9, etc.)
 2. **Browse Phrases**: Scroll through the cards showing phrases suitable for that age
 3. **Filter by Topic**: Click topic buttons to focus on specific categories
@@ -116,6 +124,9 @@ The built files will be in the `dist` folder, ready to deploy.
 5. **Mark Progress**: Click the checkbox (⬜/✅) to mark phrases you've learned
 6. **Save Favorites**: Click the star (☆/⭐) to favorite phrases for quick access
 7. **Search**: Use the search bar to find specific phrases
+8. **Toggle Lullabies**: Click 🎵 to switch to lullabies view
+
+👉 **For detailed instructions, examples, and tips, see the [USER-GUIDE.md](./USER-GUIDE.md)**
 
 ## Adding New Phrases
 
