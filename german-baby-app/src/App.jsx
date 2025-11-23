@@ -3,7 +3,9 @@ import MonthSelector from './components/MonthSelector';
 import TopicFilter from './components/TopicFilter';
 import PhraseCard from './components/PhraseCard';
 import ProgressBar from './components/ProgressBar';
+import Lullaby from './components/Lullaby';
 import phrasesData from './data/phrases.json';
+import lullabiesData from './data/lullabies.json';
 
 function App() {
   const [selectedMonth, setSelectedMonth] = useState(0);
@@ -14,6 +16,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
   const [showDeleted, setShowDeleted] = useState(false);
+  const [showLullabies, setShowLullabies] = useState(false);
 
   // Load saved progress from localStorage
   useEffect(() => {
@@ -104,6 +107,14 @@ function App() {
     return phrasesData.topics.find((t) => t.id === topicId);
   };
 
+  // Filter lullabies based on selected month and topics
+  const filteredLullabies = lullabiesData.lullabies.filter((lullaby) => {
+    const monthMatch = lullaby.startMonth <= selectedMonth;
+    const topicMatch =
+      selectedTopics.length === 0 || selectedTopics.includes(lullaby.topic);
+    return monthMatch && topicMatch;
+  });
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 py-8 px-4">
       <div className="max-w-7xl mx-auto">
@@ -158,6 +169,16 @@ function App() {
           >
             🗑️ {showDeleted ? 'Hide Deleted' : 'Show Deleted'} ({deleted.size})
           </button>
+          <button
+            onClick={() => setShowLullabies(!showLullabies)}
+            className={`px-6 py-3 rounded-xl border-2 transition-all ${
+              showLullabies
+                ? 'bg-purple-500 border-purple-600 text-white'
+                : 'bg-white border-gray-300 text-gray-700 hover:border-purple-500'
+            }`}
+          >
+            🎵 {showLullabies ? 'Show Phrases' : 'Show Lullabies'} ({filteredLullabies.length})
+          </button>
         </div>
 
         {/* Topic Filter */}
@@ -171,34 +192,58 @@ function App() {
         {/* Results Count */}
         <div className="mb-6">
           <p className="text-lg text-gray-700 font-medium">
-            Showing {filteredPhrases.length} phrases
+            {showLullabies
+              ? `Showing ${filteredLullabies.length} lullabies`
+              : `Showing ${filteredPhrases.length} phrases`
+            }
           </p>
         </div>
 
-        {/* Phrase Cards Grid */}
-        {filteredPhrases.length === 0 ? (
-          <div className="text-center py-20">
-            <p className="text-2xl text-gray-500">
-              No phrases found. Try adjusting your filters!
-            </p>
-          </div>
+        {/* Lullabies Section */}
+        {showLullabies ? (
+          filteredLullabies.length === 0 ? (
+            <div className="text-center py-20">
+              <p className="text-2xl text-gray-500">
+                No lullabies found for this age/topic. Try adjusting your filters!
+              </p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {filteredLullabies.map((lullaby) => (
+                <Lullaby
+                  key={lullaby.id}
+                  lullaby={lullaby}
+                  topic={getTopicDetails(lullaby.topic)}
+                />
+              ))}
+            </div>
+          )
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredPhrases.map((phrase) => (
-              <PhraseCard
-                key={phrase.id}
-                phrase={phrase}
-                topic={getTopicDetails(phrase.topic)}
-                onToggleFavorite={toggleFavorite}
-                isFavorite={favorites.has(phrase.id)}
-                onMarkLearned={toggleLearned}
-                isLearned={learned.has(phrase.id)}
-                onToggleDeleted={toggleDeleted}
-                isDeleted={deleted.has(phrase.id)}
-                currentMonth={selectedMonth}
-              />
-            ))}
-          </div>
+          /* Phrase Cards Grid */
+          filteredPhrases.length === 0 ? (
+            <div className="text-center py-20">
+              <p className="text-2xl text-gray-500">
+                No phrases found. Try adjusting your filters!
+              </p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredPhrases.map((phrase) => (
+                <PhraseCard
+                  key={phrase.id}
+                  phrase={phrase}
+                  topic={getTopicDetails(phrase.topic)}
+                  onToggleFavorite={toggleFavorite}
+                  isFavorite={favorites.has(phrase.id)}
+                  onMarkLearned={toggleLearned}
+                  isLearned={learned.has(phrase.id)}
+                  onToggleDeleted={toggleDeleted}
+                  isDeleted={deleted.has(phrase.id)}
+                  currentMonth={selectedMonth}
+                />
+              ))}
+            </div>
+          )
         )}
 
         {/* Footer */}

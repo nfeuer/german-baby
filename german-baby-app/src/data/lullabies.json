@@ -1,0 +1,244 @@
+{
+  "lullabies": [
+    {
+      "id": 1,
+      "title": "Schlaf, Kindlein, schlaf",
+      "englishTitle": "Sleep, Little Child, Sleep",
+      "topic": "sleep",
+      "startMonth": 0,
+      "theme": "Traditional German lullaby about sleep and family",
+      "verses": [
+        {
+          "german": "Schlaf, Kindlein, schlaf,\nDer Vater hüt't die Schaf,\nDie Mutter schüttelt's Bäumelein,\nDa fällt herab ein Träumelein.\nSchlaf, Kindlein, schlaf.",
+          "english": "Sleep, little child, sleep,\nFather tends the sheep,\nMother shakes the little tree,\nDown falls a little dream for thee.\nSleep, little child, sleep.",
+          "pronunciation": "SHLAHF, KIND-line, SHLAHF,\nDair FAH-ter HEW-tet dee SHAHF,\nDee MOO-ter SHEW-telt's BOY-me-line,\nDah FELT hair-AHP ine TROY-me-line.\nSHLAHF, KIND-line, SHLAHF."
+        },
+        {
+          "german": "Schlaf, Kindlein, schlaf,\nAm Himmel ziehn die Schaf,\nDie Sternlein sind die Lämmerlein,\nDer Mond, der ist das Schäferlein.\nSchlaf, Kindlein, schlaf.",
+          "english": "Sleep, little child, sleep,\nIn heaven drift the sheep,\nThe little stars are little lambs,\nThe moon's the shepherd of the land.\nSleep, little child, sleep.",
+          "pronunciation": "SHLAHF, KIND-line, SHLAHF,\nAhm HIM-mel tseen dee SHAHF,\nDee SHTERN-line zint dee LEM-mer-line,\nDair MOHND, dair ist dahs SHEH-fer-line.\nSHLAHF, KIND-line, SHLAHF."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Guten Abend, gute Nacht",
+      "englishTitle": "Good Evening, Good Night (Brahms' Lullaby)",
+      "topic": "sleep",
+      "startMonth": 0,
+      "theme": "Brahms' famous lullaby - peaceful sleep with roses and angels",
+      "verses": [
+        {
+          "german": "Guten Abend, gut' Nacht,\nMit Rosen bedacht,\nMit Näglein besteckt,\nSchlupf unter die Deck'.\nMorgen früh, wenn Gott will,\nWirst du wieder geweckt.",
+          "english": "Good evening, good night,\nWith roses adorned,\nWith carnations bedecked,\nSlip under the covers.\nTomorrow morning, if God wills,\nYou will be awakened again.",
+          "pronunciation": "GOO-ten AH-bent, goot NAKHT,\nMit ROH-zen be-DAKHT,\nMit NEG-line be-SHTEKT,\nSHLOOPF OON-ter dee DEK.\nMOR-gen FREW, ven GOT vil,\nVeerst doo VEE-der ge-VEKT."
+        },
+        {
+          "german": "Guten Abend, gut' Nacht,\nVon Englein bewacht,\nDie zeigen im Traum\nDir Christkindleins Baum.\nSchlaf nun selig und süß,\nSchau im Traum's Paradies.",
+          "english": "Good evening, good night,\nBy angels watched over,\nThey'll show in your dream\nThe Christ child's tree.\nSleep now blessed and sweet,\nSee paradise in your dream.",
+          "pronunciation": "GOO-ten AH-bent, goot NAKHT,\nFon ENG-line be-VAKHT,\nDee TSIGH-en im TROWM\nDeer KRIST-kind-lines BOWM.\nSHLAHF noon ZEH-lig oont ZEWS,\nSHOW im TROWM's pah-rah-DEES."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Der Mond ist aufgegangen",
+      "englishTitle": "The Moon Has Risen",
+      "topic": "weather",
+      "startMonth": 6,
+      "theme": "Evening song about the moon, stars, and nature",
+      "verses": [
+        {
+          "german": "Der Mond ist aufgegangen,\nDie goldnen Sternlein prangen\nAm Himmel hell und klar.",
+          "english": "The moon has risen,\nThe golden little stars shine\nIn the sky bright and clear.",
+          "pronunciation": "Dair MOHND ist OWF-ge-gang-en,\nDee GOLD-nen SHTERN-line PRANG-en\nAhm HIM-mel HEL oont KLAHR."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Weißt du, wieviel Sternlein stehen",
+      "englishTitle": "Do You Know How Many Stars There Are",
+      "topic": "numbers",
+      "startMonth": 12,
+      "theme": "Counting stars and God's care for all creatures",
+      "verses": [
+        {
+          "german": "Weißt du, wieviel Sternlein stehen\nAn dem blauen Himmelszelt?\nWeißt du, wieviel Wolken gehen\nWeithin über alle Welt?",
+          "english": "Do you know how many little stars stand\nIn the blue sky's tent?\nDo you know how many clouds go\nFar across all the world?",
+          "pronunciation": "VICED doo, VEE-feel SHTERN-line SHTEH-en\nAhn dem BLOW-en HIM-mels-tselt?\nVICED doo, VEE-feel VOL-ken GEH-en\nVITE-hin EW-ber AHL-le VELT?"
+        },
+        {
+          "german": "Gott der Herr hat sie gezählet,\nDass ihm auch nicht eines fehlet\nAn der ganzen großen Zahl.",
+          "english": "God the Lord has counted them,\nSo that not even one is missing\nFrom the whole great number.",
+          "pronunciation": "GOT dair HER hot zee ge-TSAY-let,\nDahs eem owkh nikht I-nes FAY-let\nAhn dair GAHN-tsen GROH-sen TSAHL."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Lalala, Kleines Schäfchen",
+      "englishTitle": "Lalala, Little Lamb",
+      "topic": "animals",
+      "startMonth": 6,
+      "theme": "Simple lullaby about a little lamb going to sleep",
+      "verses": [
+        {
+          "german": "Lalala, kleines Schäfchen,\nLalala, schlaf nun ein.\nDeine Wolle warm und weich,\nMacht dein Bettchen kuschelig gleich.",
+          "english": "Lalala, little lamb,\nLalala, go to sleep now.\nYour wool warm and soft,\nMakes your bed cozy right away.",
+          "pronunciation": "Lah-lah-lah, KLINE-es SHEF-khen,\nLah-lah-lah, SHLAHF noon INE.\nDINE-eh VOL-leh VAHRM oont VIKE,\nMAHKT dine BET-khen KOO-shel-ig GLIKE."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Alle Vöglein sind schon da",
+      "englishTitle": "All the Little Birds Are Here",
+      "topic": "animals",
+      "startMonth": 9,
+      "theme": "Spring song about birds arriving - can be sung as gentle lullaby",
+      "verses": [
+        {
+          "german": "Alle Vöglein sind schon da,\nAlle Vöglein, alle!\nWelch ein Singen, Musiziern,\nPfeifen, Zwitschern, Tirilieren!\nFrühling will nun einmarschiern,\nKommt mit Sang und Schalle.",
+          "english": "All the little birds are here,\nAll the birdies, all!\nWhat singing, music-making,\nWhistling, chirping, warbling!\nSpring wants to march in now,\nComes with song and sound.",
+          "pronunciation": "AHL-leh FEG-line zint shohn DAH,\nAHL-leh FEG-line, AHL-leh!\nVELKH ine ZING-en, moo-zee-TSEER'n,\nPFIFE-en, TSVIT-shern, tee-ree-LEER-en!\nFREW-ling vil noon INE-mar-sheer'n,\nKOMT mit ZAHNG oont SHAHL-leh."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Müde bin ich, geh zur Ruh",
+      "englishTitle": "I Am Tired, Go to Rest",
+      "topic": "routines",
+      "startMonth": 12,
+      "theme": "Evening prayer and bedtime routine",
+      "verses": [
+        {
+          "german": "Müde bin ich, geh zur Ruh,\nSchließe meine Äuglein zu.\nVater, lass die Augen dein\nÜber meinem Bette sein.",
+          "english": "I am tired, go to rest,\nClose my little eyes.\nFather, let your eyes\nBe over my bed.",
+          "pronunciation": "MEW-deh bin ikh, geh tsoor ROO,\nSHLEES-seh MINE-eh OYG-line TSOO.\nFAH-ter, lahs dee OW-gen dine\nEW-ber MINE-em BET-teh zine."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Funkel, funkel, kleiner Stern",
+      "englishTitle": "Twinkle, Twinkle, Little Star",
+      "topic": "weather",
+      "startMonth": 6,
+      "theme": "German version of the classic star song",
+      "verses": [
+        {
+          "german": "Funkel, funkel, kleiner Stern,\nAch wie bist du mir so fern.\nWunderschön und unbekannt,\nWie ein strahlend Diamant,\nFunkel, funkel, kleiner Stern,\nAch wie bist du mir so fern.",
+          "english": "Twinkle, twinkle, little star,\nOh how far away you are.\nWonderful and unknown,\nLike a shining diamond,\nTwinkle, twinkle, little star,\nOh how far away you are.",
+          "pronunciation": "FOON-kel, FOON-kel, KLINE-er SHTERN,\nAKH vee bist doo meer zoh FERN.\nVOON-der-shern oont OON-be-kahnt,\nVee ine SHTRAH-lent dee-ah-MAHNT,\nFOON-kel, FOON-kel, KLINE-er SHTERN,\nAKH vee bist doo meer zoh FERN."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Guter Mond, du gehst so stille",
+      "englishTitle": "Good Moon, You Walk So Quietly",
+      "topic": "weather",
+      "startMonth": 9,
+      "theme": "Gentle moon song for peaceful sleep",
+      "verses": [
+        {
+          "german": "Guter Mond, du gehst so stille\nDurch die Abendwolken hin;\nDeines Schöpfers weiser Wille\nHieß auf jener Bahn dich ziehn.",
+          "english": "Good moon, you walk so quietly\nThrough the evening clouds;\nYour creator's wise will\nBid you go on that path.",
+          "pronunciation": "GOO-ter MOHND, doo GAYST zoh SHTIL-leh\nDOORKH dee AH-bent-vol-ken HIN;\nDINE-es SHERF-fers VI-zer VIL-len\nHEES owf YEH-ner BAHN dikh TSEEN."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Kommt ein Vogel geflogen",
+      "englishTitle": "A Bird Comes Flying",
+      "topic": "animals",
+      "startMonth": 12,
+      "theme": "Sweet song about a bird bringing greetings and love",
+      "verses": [
+        {
+          "german": "Kommt ein Vogel geflogen,\nSetzt sich nieder auf mein' Fuß,\nHat ein Briefchen im Schnabel,\nVon der Liebsten einen Gruß.",
+          "english": "A bird comes flying,\nLands down on my foot,\nHas a little letter in its beak,\nA greeting from my beloved.",
+          "pronunciation": "KOMT ine FOH-gel ge-FLOH-gen,\nZETST zikh NEE-der owf mine FOOS,\nHaht ine BREEF-khen im SHNAH-bel,\nFon dair LEEP-sten INE-en GROOS."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sandmann, lieber Sandmann",
+      "englishTitle": "Sandman, Dear Sandman",
+      "topic": "sleep",
+      "startMonth": 12,
+      "theme": "Famous German sandman song about bringing sleep and dreams",
+      "verses": [
+        {
+          "german": "Sandmann, lieber Sandmann,\nEs ist noch nicht so weit!\nWir sehen erst den Abendgruß,\nEh' jedes Kind ins Bettchen muss.\nDu hast gewiss noch Zeit.",
+          "english": "Sandman, dear Sandman,\nIt's not quite time yet!\nWe'll watch the evening greeting first,\nBefore each child must go to bed.\nYou surely still have time.",
+          "pronunciation": "ZAHND-mahn, LEE-ber ZAHND-mahn,\nEs ist nokh nikht zoh VITE!\nVeer ZEH-en AIRST den AH-bent-groos,\nEH YEH-des KIND ins BET-khen moos.\nDoo hahst ge-VIS nokh TSITE."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Ade zur guten Nacht",
+      "englishTitle": "Farewell for the Good Night",
+      "topic": "greetings",
+      "startMonth": 3,
+      "theme": "Traditional goodnight song",
+      "verses": [
+        {
+          "german": "Ade zur guten Nacht,\nJetzt wird der Schluss gemacht,\nDass ich muss scheiden.\nIm Sommer, da wächst der Klee,\nIm Winter, da schneit's den Schnee,\nDa komm ich wieder.",
+          "english": "Farewell for the good night,\nNow the end is made,\nThat I must part.\nIn summer, the clover grows,\nIn winter, the snow snows,\nThen I'll come again.",
+          "pronunciation": "ah-DAY tsoor GOO-ten NAKHT,\nYETST veert dair SHLOOS ge-MAKHT,\nDahs ikh moos SHIDE-en.\nIm ZOM-mer, dah vekst dair KLAY,\nIm VIN-ter, dah SHNITES den SHNAY,\nDah kom ikh VEE-der."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Abends will ich schlafen gehn",
+      "englishTitle": "In the Evening I Want to Go to Sleep",
+      "topic": "sleep",
+      "startMonth": 6,
+      "theme": "From Hansel and Gretel opera - angels watching over sleep",
+      "verses": [
+        {
+          "german": "Abends will ich schlafen gehn,\nVierzehn Engel um mich stehn:\nZwei zu meinen Häupten,\nZwei zu meinen Füßen,\nZwei zu meiner Rechten,\nZwei zu meiner Linken,\nZweie, die mich decken,\nZweie, die mich wecken,\nZweie, die mich weisen\nZu Himmels Paradeisen!",
+          "english": "In the evening I want to go to sleep,\nFourteen angels stand around me:\nTwo at my head,\nTwo at my feet,\nTwo at my right,\nTwo at my left,\nTwo who cover me,\nTwo who wake me,\nTwo who show me\nTo heaven's paradise!",
+          "pronunciation": "AH-bents vil ikh SHLAH-fen GAYN,\nFEER-tsayn ENG-el oom mikh SHTAYN:\nTSVY tsoo MINE-en HOYP-ten,\nTSVY tsoo MINE-en FEW-sen,\nTSVY tsoo MINE-er REKH-ten,\nTSVY tsoo MINE-er LINK-en,\nTSVY-eh, dee mikh DEK-en,\nTSVY-eh, dee mikh VEK-en,\nTSVY-eh, dee mikh VICE-en\nTsoo HIM-mels pah-rah-DICE-en!"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Schlafe, mein Prinzchen",
+      "englishTitle": "Sleep, My Little Prince",
+      "topic": "sleep",
+      "startMonth": 3,
+      "theme": "Mozart's lullaby about peaceful sleep with animals resting",
+      "verses": [
+        {
+          "german": "Schlafe, mein Prinzchen, schlaf ein,\nEs ruhn Schäfchen und Vögelein.\nGarten und Wiese verstummt,\nAuch nicht ein Bienchen mehr summt.\nLuna mit silbernem Schein\nGucket zum Fenster herein.\nSchlafe beim silbernen Schein,\nSchlafe, mein Prinzchen, schlaf ein!",
+          "english": "Sleep, my little prince, sleep,\nThe little sheep and birds are resting.\nGarden and meadow are silent,\nNot even a little bee hums anymore.\nLuna with silvery shine\nPeeks in through the window.\nSleep in the silvery shine,\nSleep, my little prince, sleep!",
+          "pronunciation": "SHLAH-feh, mine PRINTS-khen, SHLAHF INE,\nEs ROON SHEF-khen oont FEG-el-ine.\nGAR-ten oont VEE-zeh fer-SHTUMT,\nOWKH nikht ine BEE-nkhen MAYR ZUMT.\nLOO-nah mit ZIL-ber-nem SHINE\nGOOK-et tsum FEN-ster hair-INE.\nSHLAH-feh bime ZIL-ber-nem SHINE,\nSHLAH-feh, mine PRINTS-khen, SHLAHF INE!"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Wenn die Blätter leise rascheln",
+      "englishTitle": "When the Leaves Rustle Softly",
+      "topic": "weather",
+      "startMonth": 15,
+      "theme": "Autumn lullaby about rustling leaves and wind",
+      "verses": [
+        {
+          "german": "Wenn die Blätter leise rascheln\nUnd der Wind sacht durch die Bäume weht,\nDann ist es Zeit zum Träumen,\nMein Kind, es wird schon spät.",
+          "english": "When the leaves rustle softly\nAnd the wind gently blows through the trees,\nThen it's time for dreaming,\nMy child, it's getting late.",
+          "pronunciation": "Ven dee BLET-ter LICE-eh RAHSH-eln\nOont dair VINT zakht doorkh dee BOY-meh VAYT,\nDahn ist es TSITE tsum TROY-men,\nMine KINT, es veert shohn SHPAYT."
+        }
+      ]
+    }
+  ]
+}
