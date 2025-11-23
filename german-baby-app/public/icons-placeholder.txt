@@ -1,0 +1,11 @@
+⚠️ ICON FILES NEEDED
+
+Please create two icon files in this directory:
+- icon-192.png (192x192 pixels)
+- icon-512.png (512x512 pixels)
+
+See ICON-SETUP.md for detailed instructions.
+
+The PWA will work without icons, but they're needed for a professional home screen appearance.
+
+Quick fix: Use https://www.pwabuilder.com/imageGenerator to generate icons.

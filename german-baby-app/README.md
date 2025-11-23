@@ -2,11 +2,24 @@
 
 An interactive web application to help you learn German phrases to use with your baby during their developmental journey from 0-24 months.
 
+## 📱 Progressive Web App (PWA)
+
+**This app works offline and can be installed on your phone!**
+
+- ✅ Install to home screen like a native app
+- ✅ Works completely offline (no internet needed)
+- ✅ Fast loading from cache
+- ✅ All progress saved locally
+- ✅ Works on iPhone, Android, and desktop
+
+👉 **[See installation instructions](./INSTALL-ON-PHONE.md)** for iPhone and Android
+
 ## Features
 
 ### 📚 Comprehensive Content
 - **520+ German phrases** organized across 15 topic categories
-- Phrases tailored to each developmental stage (0-24 months)
+- **15 traditional German lullabies** with full lyrics and translations
+- Phrases and lullabies tailored to each developmental stage (0-24 months)
 - Topics include:
   - Greetings & Affection
   - Sleep & Waking
@@ -43,11 +56,26 @@ An interactive web application to help you learn German phrases to use with your
 - Filter to show only favorited phrases
 - Favorites persist across sessions
 
+### 🎵 German Lullabies
+- **15 traditional German lullabies** with authentic lyrics
+- Complete English translations for every verse
+- Detailed pronunciation guides (toggle on/off)
+- Multi-verse navigation
+- Lullabies aligned with learning topics (sleep, animals, weather, etc.)
+- Age-appropriate filtering
+
+### 🗑️ Phrase Management
+- **Delete/hide phrases** you're not interested in
+- Hidden phrases completely filtered from view
+- **Restore deleted phrases** anytime via "Show Deleted" toggle
+- All preferences saved to localStorage
+
 ### 🔍 Smart Filtering
 - **Month selector**: See phrases appropriate for your baby's age
 - **Topic filter**: Focus on specific categories
 - **Search**: Find phrases by English or German text
 - **Favorites filter**: Quick access to starred phrases
+- **Lullabies toggle**: Switch between phrases and lullabies view
 
 ### 🎨 Beautiful Design
 - Smooth flip animations on cards
